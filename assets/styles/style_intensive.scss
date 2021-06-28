@@ -27,6 +27,15 @@ h1 {
     color: rgba(59, 59, 59, 1);
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59.9832px;
+    line-height: 78px;
+    color: #3B3B3B;
+}
+
 .main-section {
     display: flex;
     flex-direction: row;
@@ -146,7 +155,7 @@ h1 {
 .section-2__col3 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
 }
 
 .section-2__col3__img {
