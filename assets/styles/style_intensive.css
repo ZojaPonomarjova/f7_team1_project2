@@ -111,28 +111,21 @@ h2 {
 }
 
 .section-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
-.section-2__col2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.section-2__col1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
-.section-2__col1__text {
+.section-2__col1 .section-2__col1__text {
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -141,13 +134,11 @@ h2 {
   color: #3A3A3A;
 }
 
-.section-2__col2__img {
-  width: 100%;
-  max-width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.section-2__col2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .col2__text {
@@ -178,51 +169,11 @@ h2 {
   color: #3B3B3B;
 }
 
-.section-2__col3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 40px;
-}
-
-.section-2__col3__img {
-  width: 100%;
+.section-2__col2__img {
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
-}
-
-.section-2__col3__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.section-2__col3__text .col3__text1 {
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 26px;
-  color: #3B3B3B;
-}
-
-.section-2__col3__text .col3__text2 {
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  color: #3B3B3B;
 }
 /*# sourceMappingURL=style_intensive.css.map */
