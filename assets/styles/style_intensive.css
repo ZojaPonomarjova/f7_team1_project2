@@ -123,7 +123,7 @@ h1 {
           flex-direction: row;
 }
 
-.col2__img {
+.section-2__col2__img {
   width: 100%;
   max-width: 100%;
   background-size: cover;
@@ -152,7 +152,7 @@ h1 {
           flex-direction: row;
 }
 
-.col3__img {
+.section-2__col3__img {
   width: 100%;
   max-width: 100%;
   background-size: cover;
