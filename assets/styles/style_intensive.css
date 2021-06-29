@@ -123,6 +123,15 @@ h1 {
           flex-direction: row;
 }
 
+.section-2__col1__text {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #3A3A3A;
+}
+
 .section-2__col2__img {
   width: 100%;
   max-width: 100%;
