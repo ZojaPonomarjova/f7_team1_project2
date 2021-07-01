@@ -1,125 +1,70 @@
     <!DOCTYPE html>
     <html lang="ru">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/styles/normalize.css">
+        <link rel="stylesheet" href="assets/styles/fonts.css">
+        <link rel="stylesheet" href="assets/styles/style_footer.css">
         <title>ITGIRLSCHOOL</title>
-<style>
-footer,
-.footer-container, 
-.footer-copyright, 
-.footer-contacts, 
-.footer-mailer, 
-.footer-useful, 
-.info-footer {
-    display: grid;
-}
+        <link rel="shortcut icon" href="assets/images/icon.png" type="image/svg">
 
-.footer-container {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.footer-container {
-    background-color: rgba(59, 59, 59, 1);
-    color: white;
-    padding-left: 50px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.footer-title {
-    font-weight: 700;
-}
-
-.footer-copyright {
-    grid-column: 1/2;
-}
-.footer-copyright-text {
-    grid-row: 1/2;
-}
-
-.footer-contacts {
-    grid-row: 2/3;
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.footer-img {
-    grid-row: 3/4;
-    margin-top: 10px;
-}
-
-.footer-mailer {
-    grid-column: 3/4;
-    grid-template-rows: repeat(4, 1fr);
-    
-}
-
-.footer-useful {
-    grid-column: 4/5;
-    grid-template-rows: repeat(8, 1fr);
-}
-
-.info-footer {
-    grid-column: 5/6;
-    grid-template-rows: repeat(3, 1fr);
-    padding-bottom: 40%;
-}
-
-</style>
     </head>
+
     <body>
         <footer>
             <div class="footer-container">
 
-            <div class="footer-copyright">
-            <div class="footer-copyright-text">
-           <div class="course footer-title">© 2012 - 2020 LOFT </div>
-            <div class="online-school">Школа онлайн образования</div>
-        </div>
-        <div class="footer-contacts">
-        <div class="footer-phone"> 8 (800) 302 1201 </div>
-               <div class="email"><a href="mailto:info@loftschool.com" class="e-mail">info@loftschool.com</a> </div> 
-            </div>
-               <div class="footer-img"><img src="assets/images/school-logo-footer.png" alt="girl with computer" class="school_logo"></div>
-           
-        </div>
+                <div class="footer-copyright">
+                    <ul>
+                        <li class="years">© 2012 - 2020 ITGIRLSCHOOL</li>
+                        <li>Школа онлайн образования</li>
+                        <li> 8 (800) 302 1201 </li>
+                        <li><a href="mailto:questions@itgirlschool.ru" class="e-mail">questions@itgirlschool.ru</a> </li>
+                    </ul>
 
-            <div class="footer-mailer">
-                <div class="footer-title">Полезная рассылка</div>
-                <div class="mailer-text">Подпишись, чтобы быть в курсе <br>
-                наших новостей, акций и скидок.</div>
-                <div class="footer-input">
-                    <input type="text" name="email"/></div>
-                    <div class="mailer-button"><a id="button1" href="/register.html">Подписаться</a></div>
-            </div>
+                    <div class="footer-img"><img src="assets/images/school-logo-footer.png" alt="girl with computer"
+                            class="school_logo">
+                    </div>
+                </div>
 
-            <div class="footer-useful">
-               
-                    <div class="footer-title">Карта курсов</div>
-                    <a class="footer_menu" href="/landing.html">Работодателям</a>
-                    <a class="footer_menu" href="/landing.html">Партнерская программа</a>
-                    <a class="footer_menu" href="/landing.html">Вакансии</a>
-                    <a class="footer_menu" href="/landing.html">Подарочные сертификаты</a>
-                    <a class="footer_menu" href="/landing.html">Вебинары</a>
-                    <a class="footer_menu" href="/landing.html">Блог</a>
-                    <a class="footer_menu" href="/landing.html">FAQ</a>
-            </div>
+                <div class="footer-mailer">
+                    <div class="text">
+                        <div class="mailer-line footer-title">Полезная рассылка</div>
+                        <div class="mailer-text">Подпишись, чтобы быть в курсе <br>
+                            наших новостей, акций и скидок.</div>
+                    </div>
+                    <div class="footer-input">
+                        <input type="text" value="Введите e-mail" name="email" /></div>
+                        <span id="input">Заполните поле</span>
+                    <button class="mailer-button">Подписаться</button>
+                </div>
 
-            <div class="info-footer">
-                <div class="info footer-title">Информация</div>
-                <a class="footer_menu" href="/landing.html">Публичная оферта</a>
-                 <a class="footer_menu" href="/landing.html">Политика конфиденциальности</a>
+                <div class="footer-useful">
+                    <ul>
+                        <li class="map footer-title">Карта курсов</li>
+                        <li><a class="footer_menu" href="/companies.html">Работодателям</a></li>
+                        <li><a class="footer_menu" href="/partnership.html">Партнерская программа</a></li>
+                        <li><a class="footer_menu" href="/jobs.html">Вакансии</a></li>
+                        <li><a class="footer_menu" href="/certificates.html">Подарочные сертификаты</a></li>
+                        <li><a class="footer_menu" href="/webinars.html">Вебинары</a></li>
+                        <li><a class="footer_menu" href="/blog.html">Блог</a></li>
+                        <li><a class="footer_menu" href="/help.html">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="info-footer">
+                    <ul>
+                        <li class="info footer-title">Информация</li>
+                        <li><a class="footer_menu" href="/offer.html">Публичная оферта</a></li>
+                        <li><a class="footer_menu" href="/privacy.html">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </footer>
+
     </body>
+
     </html>
