@@ -4,7 +4,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    color: #F39D90;
+    color: #FF92BF;
 }
 
 .title {
@@ -22,4 +22,93 @@
     font-size: 18px;
     line-height: 26px;
     color: #3B3B3B;
+}
+
+.first-section__date {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*кнопки*/
+
+.first-section__button {
+    width: 170px;
+    height: 40px;
+    background-color: #FF92BF;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 5px 38px;
+    box-sizing: border-box;
+
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/*позиционирование и размеры*/
+
+.main {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: 4% 23% 12% 50% 11%;
+    grid-template-rows: 15% 6% 158px 1fr 52px 38px 1.5fr;
+
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.main__background-pink {
+    grid-area: 1/3/8/6;
+
+    background-image: url(../images/Frontend1-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: top;
+
+    z-index: -2;
+}
+
+.main__background-image {
+    grid-area: 3/4/7/5;
+    z-index: -1;
+
+    background-image: url(../images/Frontend1-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.first-section__subtitle {
+    grid-area: 2/2/3/4;
+}
+
+.first-section__title {
+    margin: 0px;
+    grid-area: 3/2/4/4;
+}
+
+.first-section__text {
+    grid-area: 4/2/5/4;
+}
+
+.first-section__button {
+    grid-area: 5/2/6/4;
+}
+
+.first-section__date {
+    grid-area: 6/2/7/4;
 }
