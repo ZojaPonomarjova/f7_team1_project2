@@ -234,19 +234,36 @@ h3 {
 .section-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px 60px;
+    text-align: center;
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 .card__img {
     max-width: 100%;
-    text-align: center;
 }
 
 .card__text {
-    text-align: center;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #3B3B3B;
+}
+
+
+
+
+
+.section-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
