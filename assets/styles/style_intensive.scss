@@ -9,14 +9,7 @@ main {
     margin: auto;
 }
 
-h5 {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    color: rgba(0, 0, 0, 1);
-}
+
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -52,6 +45,21 @@ h3 {
     line-height: 26px;
     color: #3B3B3B;
 }
+
+h5 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+}
+
+// img {
+//     max-width: 100%;
+// }
+// надо ли?
+
 
 .main-section {
     display: flex;
@@ -274,6 +282,48 @@ h3 {
     color: #3B3B3B;
 }
 
+.section-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.section-5__tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    .section-5__task {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+
+.section-5__tasks__text {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #3B3B3B;
+}
+
+.section-5__video {
+    align-items: center;
+
+}
+
 
 
 
@@ -281,5 +331,15 @@ h3 {
 .section-6 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    // justify-content: space-around;
+
+    .section-6__img {
+        max-width: 100%;
+    }
+}
+
+.section-8 {
+    display: flex;
+    flex-direction: row;
+
 }
