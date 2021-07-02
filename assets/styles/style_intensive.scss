@@ -32,9 +32,15 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 59.9832px;
+    font-size: 60px;
     line-height: 78px;
     color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        font-size: 30px;
+        // На всех страницах такой шрифт надо на моб устройствах????
+    }
+
 }
 
 h3 {
@@ -98,7 +104,7 @@ h3 {
 
 .main-section__col2 {
     display: grid;
-    grid-template-columns: 1fr 1r 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     // grid-template-rows: 1fr 1fr 1fr 1fr;
 
     // background-image: url(assets/image/Vector_1.png);
@@ -121,6 +127,13 @@ h3 {
     // justify-content: end;
     justify-items: end;
     align-items: center;
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
 }
 
 
@@ -144,11 +157,12 @@ h3 {
 
 
 .section-2__col2 {
-    align-self: center;
-    justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
 }
 
 .section-2__col2__img {
@@ -165,7 +179,7 @@ h3 {
 
     .section-2__col2__text1 {
         font-family: 'Jost', sans-serif;
-        font-style: bold;
+        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 26px;
@@ -182,18 +196,13 @@ h3 {
     }
 }
 
-
-
-
-
-
-
 .section-2__col3 {
-    align-self: center;
-    justify-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
 }
 
 .section-2__col3__img {
@@ -210,7 +219,7 @@ h3 {
 
     .section-2__col3__text1 {
         font-family: 'Jost', sans-serif;
-        font-style: bold;
+        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 26px;
@@ -229,24 +238,48 @@ h3 {
 
 
 
+.section-3 {
+    background-color: #F4F4F4;
+}
+
+
+
+
 
 
 .section-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px 60px;
+    text-align: center;
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 .card__img {
     max-width: 100%;
-    text-align: center;
 }
 
 .card__text {
-    text-align: center;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #3B3B3B;
+}
+
+
+
+
+
+.section-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
