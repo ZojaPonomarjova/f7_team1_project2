@@ -267,6 +267,7 @@
     align-items: flex-end;
 
     width: 100%;
+    padding: 0% 10%;
 }
 
 .row__course {
@@ -302,7 +303,19 @@
 }
 
 .fourth-section__gradient {
-    height: 28px;
+    height: 25px;
     background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
-    z-index: 4;
+}
+
+.fourth-section__row2 {
+    display: flex;
+    justify-content: space-around;
+
+    background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
+
+}
+
+.border {
+    border: 2px solid transparent;
+    background-color: #FF92BF;
 }
