@@ -307,15 +307,131 @@
     background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
 }
 
-.fourth-section__row2 {
+.row2__conteiner {
     display: flex;
     justify-content: space-around;
+    gap: 3%;
 
-    background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
+    max-width: 1800px;
+    margin: auto;
+
+    background-color: #ffdce3;
+}
+
+
+.border-n {
+
+    width: 13%;
+    height: 84px;
+}
+
+.row2__border5 {
+    margin-right: 7%;
+
+    border-bottom-left-radius: 25px;
+    background-image: linear-gradient(to left, #eb6583, #f0858b);
+
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+.row2__border1 {
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(to left, #fbd3af, #FEE7BA);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+
+.row2__border2 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f7b9a0, #facaaa);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__border3 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f39e91, #f6ae9a);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__border4 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f1898c, #f2978f);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffdce3;
 
 }
 
-.border {
-    border: 2px solid transparent;
-    background-color: #FF92BF;
+.row2__desc_1 {
+    border-bottom-right-radius: 20px;
+}
+
+.row2__desc_5 {
+    border-bottom-left-radius: 20px;
+}
+
+.row2__desc_2,
+.row2__desc_3,
+.row2__desc_4 {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.fourth-section__row2 {
+    margin-bottom: 80px;
+}
+
+/*Пятая секция*/
+
+.fifth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    max-width: 1263px;
+
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.fifth-section__title {
+    margin-top: 20px;
+}
+
+.fifth-section__conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 80%;
+    margin: auto;
+}
+
+.fifth-section__text {
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.fifth-section__text_lower {
+    align-self: start;
+    margin-left: 15%;
 }
