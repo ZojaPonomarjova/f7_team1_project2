@@ -31,6 +31,38 @@
     line-height: 30px;
 }
 
+.date__black-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3B3B3B;
+}
+
+.date__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF92BF;
+}
+
+.course-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 78px;
+    color: #3B3B3B;
+}
+
+.course-link {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3B3B3B;
+}
+
 /*кнопки*/
 
 .first-section__button {
@@ -215,4 +247,62 @@
     padding-bottom: 10%;
     max-width: 1400px;
     margin: auto;
+}
+
+
+/*4 секция*/
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1400px;
+    margin: auto;
+}
+
+.fourth-section__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    width: 100%;
+}
+
+.row__course {
+    display: flex;
+
+    width: 20%;
+}
+
+.course__content {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.row__first-course {
+    height: 181px;
+}
+
+.first-course__flower {
+    max-height: 145px;
+    align-self: flex-end;
+}
+
+.fourth-section__title {
+    margin-bottom: 10px;
+}
+
+.fourth-section__date {
+    margin-bottom: 47px;
+}
+
+.fourth-section__gradient {
+    height: 28px;
+    background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
+    z-index: 4;
 }
