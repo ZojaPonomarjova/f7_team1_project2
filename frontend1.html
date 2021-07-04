@@ -128,7 +128,7 @@
                             <h4 class="first-course__subtitle course-subtitle">
                                 1&nbsp;курс
                             </h4>
-                            <a href="#" class="first-course__link course-link">Основы верстки сайтов</a>
+                            <a href="#headingOne" class="first-course__link course-link">Основы верстки сайтов</a>
                         </div>
                     </div>
                     <div class="row__second-course row__course second-course">
@@ -137,7 +137,7 @@
                             <h4 class="second-course__subtitle course-subtitle">
                                 2&nbsp;курс
                             </h4>
-                            <a href="#" class="second-course__link course-link">Javascript</a>
+                            <a href="#headingTwo" class="second-course__link course-link">Javascript</a>
                         </div>
                     </div>
                     <div class="row__third-course row__course third-course">
@@ -146,7 +146,7 @@
                             <h4 class="third-course__subtitle course-subtitle">
                                 3&nbsp;курс
                             </h4>
-                            <a href="#" class="third-course__link course-link">React.js</a>
+                            <a href="#headingThree" class="third-course__link course-link">React.js</a>
                         </div>
                     </div>
                     <div class="row__fourth-course row__course fourth-course">
@@ -193,6 +193,106 @@
                 </div>
                 <p class="fifth-section__text fifth-section__text_lower text">+5 больших семинаров с преподавателями</p>
             </section>
+
+            <div id="accordion" class="main__accordeon">
+                <div class="card">
+                    <div class="card-header card__header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Вёрстка сайта на HTML и CSS
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="card__left-column">
+                                <p class="card__text card__text_left text"> Научитесь верстать сайты на HTML и CSS и
+                                    вносить изменения в
+                                    существующую вёрстку. По итогам этого модуля вы уже самостоятельно сверстаете
+                                    лендинг.
+                                </p>
+                                <span class="card__subtitle">Введение в вёрстку</span>
+                                <ul class="card__list list">
+                                    <li class="list__item">Контентные теги</li>
+                                    <li class="list__item">Теги для вёрстки структуры контента</li>
+                                    <li class="list__item">Позиционирование блочных элементов</li>
+                                    <li class="list__item">Вёрстка форм</li>
+                                    <li class="list__item">Нестандартные элементы форм</li>
+                                    <li class="list__item">Всплывающие элементы</li>
+                                    <li class="list__item">Позиционирование flex-элементов</li>
+                                </ul>
+                            </div>
+                            <div class="card__right-column">
+                                <span class="card__timing">
+                                    8 часов теории 24 часа практики
+                                </span>
+                                <h6 class="card__subtitle_bold">Навыки, которые вы получите</h6>
+                                <p class="card__text text">
+                                    освоите кроссбраузерную вёрстку<br />под десктопные устройства<br />научитесь
+                                    проводить тестирование вёрстки<br />узнаете, как верстать по стандартам
+                                    W3C<br />научитесь работать с DevTools<br />освоите работу с Adobe
+                                    Photoshop<br />узнаете, что такое семантическая разметка<br />страницы и вёрстка
+                                    текста<br />познакомитесь с вёрсткой элементов,<br />доступных для Screen
+                                    Readers<br />освоите вёрстку элементов, доступных<br />для управления с
+                                    клавиатуры<br />научитесь оформлению кода
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header card__header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                JavaScript
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="card__left-column">
+                                <h6 class="card__subtitle_bold">Основы программирования на JavaScript</h6>
+                                <p class="card__text text">В этом модуле ты научишься программировать, мы разберем
+                                    основные алгоритмы и покажем как их применять в веб-разработке. Ты изучишь Vanilla
+                                    JS, ES6+, webpack, npm, научишься работать с REST API</p>
+                            </div>
+                            <div class="card__right-column">
+                                <span class="card__timing">
+                                    8 часов теории 24 часа практики
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header card__header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                React.js
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="card__left-column">
+                                <h6 class="card__subtitle_bold">Фреймворк React</h6>
+                                <p class="card__text text">Ты изучишь самый востребованный работодателями фреймворк и научишься делать сложные SPA веб-приложения, используя React</p>
+                            </div>
+                            <div class="card__right-column">
+                                <span class="card__timing">
+                                    8 часов теории 24 часа практики
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section></section>
 
         </div>
     </main>
