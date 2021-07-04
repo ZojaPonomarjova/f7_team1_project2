@@ -540,3 +540,68 @@
 
     border-bottom: 2px solid #FFDCE3;
 }
+
+/*шестая секция*/
+
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1400px;
+    margin: auto;
+
+    padding-bottom: 250px;
+    padding-top: 100px;
+}
+
+.founder-comment__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-image: url("https://static.tildacdn.com/tild3534-3831-4135-a337-626166353938/2020-10-17_11-48-59.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.founder-comment__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 83px;
+    width: 570px;
+
+    background-image: url(../images/frontend1-15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.founder-comment {
+    display: flex;
+
+    align-self: flex-start;
+    padding-left: 7%;
+    margin-bottom: 50px;
+}
+
+.founder-comment__name {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FF92BF;
+
+    padding-left: 75px;
+}
+
+.sixth-section__title {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.founder-comment__comment {
+    padding-top: 30px;
+}
