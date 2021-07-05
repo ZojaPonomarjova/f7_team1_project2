@@ -106,10 +106,21 @@
     color: #EA5D81;
 }
 
+.course-link:hover {
+    text-decoration: none;
+    color: #EA5D81;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #EA5D81;
+}
+
+
 
 /*позиционирование и размеры*/
 
-.main {
+.main__grey-background {
     background-color: #F2F2F2;
 }
 
@@ -708,7 +719,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    height: 300px;
+    min-height: 300px;
     width: 47%;
 }
 
@@ -723,4 +734,171 @@
     margin: auto;
 
     padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+/*девятая секция*/
+
+.ninth-section {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.ninth-section__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ninth-section__content {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.ninth-section__text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #3B3B3B;
+}
+
+.ninth-section__picture {
+    width: 40%;
+}
+
+.ninth-section__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 50%;
+    min-height: 100%;
+}
+
+/*десятая секция*/
+
+.tenth-section {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.tenth-section__title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
+#carouselExampleIndicators__photo3 {
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: -40px;
+}
+
+#carouselExampleIndicators__photo1 {
+    background-image: url("https://thumb.tildacdn.com/tild6465-3966-4035-b330-306666393362/-/cover/100x100/center/center/-/format/webp/81915804_25694418867.jpg");
+    background-size: cover;
+}
+
+#carouselExampleIndicators__photo2 {
+    background-image: url("https://thumb.tildacdn.com/tild6333-3032-4461-b731-633765353663/-/cover/100x100/center/center/-/format/webp/125524513_3935254784.jpg");
+    background-size: cover;
+}
+
+#carouselExampleIndicators__photo3 {
+    background-image: url("https://thumb.tildacdn.com/tild3034-3132-4430-a165-646432643262/-/cover/100x100/center/center/-/format/webp/2020-12-03_22-19-14.png");
+    background-size: cover;
+}
+
+.carousel-item__first,
+.carousel-item__second,
+.carousel-item__third {
+    max-width: 900px;
+    min-height: 400px;
+    border-radius: 25px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.carousel-item__background-image1 {
+    float: left;
+    margin-right: 5%;
+
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+    background-image: url("https://thumb.tildacdn.com/tild6465-3966-4035-b330-306666393362/-/cover/100x100/center/center/-/format/webp/81915804_25694418867.jpg");
+    background-size: cover;
+}
+
+.carousel-item__background-image2 {
+    float: left;
+    margin-right: 5%;
+
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+    background-image: url("https://thumb.tildacdn.com/tild6333-3032-4461-b731-633765353663/-/cover/100x100/center/center/-/format/webp/125524513_3935254784.jpg");
+    background-size: cover;
+}
+
+.carousel-item__background-image3 {
+    float: left;
+    margin-right: 5%;
+
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+    background-image: url("https://thumb.tildacdn.com/tild3034-3132-4430-a165-646432643262/-/cover/100x100/center/center/-/format/webp/2020-12-03_22-19-14.png");
+    background-size: cover;
+}
+
+.carousel-item__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-item__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    color: #3B3B3B;
+}
+
+.carousel-item__profession {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FF92BF;
+
+    margin-bottom: 20px;
+}
+
+.carousel-item__feedback {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #3B3B3B;
 }
