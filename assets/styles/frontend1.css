@@ -85,6 +85,28 @@
     align-items: center;
 }
 
+.btn-link {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    padding-left: 0px;
+
+    color: #3B3B3B;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #EA5D81;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+    color: #EA5D81;
+}
+
+
 /*позиционирование и размеры*/
 
 /*.main {
@@ -267,6 +289,7 @@
     align-items: flex-end;
 
     width: 100%;
+    padding: 0% 10%;
 }
 
 .row__course {
@@ -302,7 +325,283 @@
 }
 
 .fourth-section__gradient {
-    height: 28px;
+    height: 25px;
     background-image: linear-gradient(to right, #FEE7BA 0%, #F39D90 53.56%, #EA5D81 100%);
-    z-index: 4;
+}
+
+.row2__conteiner {
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+
+    max-width: 1800px;
+    margin: auto;
+
+    background-color: #ffdce3;
+}
+
+
+.border-n {
+
+    width: 13%;
+    height: 84px;
+}
+
+.row2__border5 {
+    margin-right: 7%;
+
+    border-bottom-left-radius: 25px;
+    background-image: linear-gradient(to left, #eb6583, #f0858b);
+
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+.row2__border1 {
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(to left, #fbd3af, #FEE7BA);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+
+.row2__border2 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f7b9a0, #facaaa);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__border3 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f39e91, #f6ae9a);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__border4 {
+    border-radius: 0px 0px 25px 25px;
+    background-image: linear-gradient(to left, #f1898c, #f2978f);
+
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.row2__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffdce3;
+
+}
+
+.row2__desc_1 {
+    border-bottom-right-radius: 20px;
+}
+
+.row2__desc_5 {
+    border-bottom-left-radius: 20px;
+}
+
+.row2__desc_2,
+.row2__desc_3,
+.row2__desc_4 {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.fourth-section__row2 {
+    margin-bottom: 80px;
+}
+
+/*Пятая секция*/
+
+.fifth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    max-width: 1263px;
+    margin-bottom: 70px;
+
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.fifth-section__title {
+    margin-top: 20px;
+}
+
+.fifth-section__conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 80%;
+    margin: auto;
+}
+
+.fifth-section__text {
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.fifth-section__text_lower {
+    align-self: start;
+    margin-left: 15%;
+}
+
+/*аккордеон*/
+
+.main__accordeon {
+    max-width: 1263px;
+    margin: auto;
+}
+
+.card {
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#headingTwo,
+#headingOne,
+#headingThree {
+    background-color: #FFF;
+    border-radius: 25px;
+    border: none;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__left-column {
+    width: 57%;
+}
+
+.list {
+    padding-left: 0px;
+}
+
+.list__item {
+    list-style-type: none;
+}
+
+.list__item:before {
+    color: #FF92BF;
+    content: url(../images/frontend1-14.png);
+    padding-right: 10px;
+    margin-left: -20px;
+}
+
+.card__text {
+    line-height: 36px;
+}
+
+.card__subtitle,
+.list__item,
+.card__timing {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3B3B3B;
+}
+
+.card__subtitle_bold {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3B3B3B;
+}
+
+.card__text_left {
+    margin-bottom: 30px;
+}
+
+.card__timing {
+    position: relative;
+    bottom: 70px;
+
+    padding-bottom: 20px;
+    padding-right: 8vw;
+
+    border-bottom: 2px solid #FFDCE3;
+}
+
+/*шестая секция*/
+
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1400px;
+    margin: auto;
+
+    padding-bottom: 250px;
+    padding-top: 100px;
+}
+
+.founder-comment__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-image: url("https://static.tildacdn.com/tild3534-3831-4135-a337-626166353938/2020-10-17_11-48-59.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.founder-comment__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 83px;
+    width: 570px;
+
+    background-image: url(../images/frontend1-15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.founder-comment {
+    display: flex;
+
+    align-self: flex-start;
+    padding-left: 7%;
+    margin-bottom: 50px;
+}
+
+.founder-comment__name {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FF92BF;
+
+    padding-left: 75px;
+}
+
+.sixth-section__title {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.founder-comment__comment {
+    padding-top: 30px;
 }
