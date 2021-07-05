@@ -109,10 +109,9 @@
 
 /*позиционирование и размеры*/
 
-/*.main {
-    max-width: 1400px;
-    margin: auto;
-}*/
+.main {
+    background-color: #F2F2F2;
+}
 
 .first-section {
     display: grid;
@@ -207,7 +206,6 @@
     background-image: url(../images/frontend1-10.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -5%;
 }
 
 .third-section__title {
@@ -551,8 +549,8 @@
     max-width: 1400px;
     margin: auto;
 
-    padding-bottom: 250px;
     padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .founder-comment__photo {
@@ -604,4 +602,125 @@
 
 .founder-comment__comment {
     padding-top: 30px;
+}
+
+/*седьмая секция*/
+
+.seventh-section {
+    margin-top: -50px;
+}
+
+.seventh-section__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.seventh-section__content-conteiner {
+    max-width: 1263px;
+    margin: auto;
+    border-radius: 20px;
+
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.content-conteiner__subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #3B3B3B;
+}
+
+.content-conteiner__name {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #3B3B3B;
+}
+
+.content-conteiner {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2% 5%;
+}
+
+.content-conteiner__left-column {
+    width: 60%;
+}
+
+/*блок про верстальщика*/
+
+.layout-designer-info__salary {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+
+    color: #FF92BF;
+}
+
+.ayout-designer-info__subtitle {
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+
+    color: #3B3B3B;
+}
+
+.layout-designer-info__description {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #3B3B3B;
+}
+
+.layout-designer-info__text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #3B3B3B;
+}
+
+.layout-designer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 130px;
+    max-width: 1263px;
+    margin: auto;
+}
+
+.layout-designer-info__salary-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout-designer-info__left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 300px;
+    width: 47%;
+}
+
+.layout-designer-info__picture {
+    width: 43%;
+}
+
+/*восьмая секция*/
+
+.eighth-section {
+    max-width: 1400px;
+    margin: auto;
+
+    padding-top: 70px;
 }
