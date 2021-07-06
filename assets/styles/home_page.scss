@@ -1,5 +1,6 @@
 body {
     max-width: 100%;
+
 }
 
 
@@ -112,6 +113,7 @@ h2 {
     justify-items: center;
     margin-top: 110px;
     height: 78px;
+
 }
 
 .second_section__img {
@@ -147,7 +149,6 @@ h2 {
     margin-top: 10px;
 
 }
-
 
 .carousel-indicators li {
 
@@ -195,6 +196,14 @@ h2 {
 }
 
 /*Четвертая секция*/
+.four-section__carousel {
+    max-width: 1400px;
+    height: 752px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+}
+
 .four-section__col1 {
     display: grid;
     justify-content: center;
@@ -203,10 +212,131 @@ h2 {
 }
 
 
+/*карусель*/
+
+
+
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
+#carouselExampleIndicators__photo3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -40px;
+}
+
+#carouselExampleIndicators__photo1 {
+    background-image: url("/assets/images/круг.png");
+    background-size: cover;
+}
+#carouselExampleIndicators__photo2 {
+    background-image: url("/assets/images/круг.png");
+    background-size: cover;
+}
+#carouselExampleIndicators__photo3 {
+    background-image: url("/assets/images/круг.png");
+    background-size: cover;
+}
+.carousel-item__first,
+.carousel-item__second,
+.carousel-item__third {
+
+    width: 620px;
+    height: 431.84px;
+    border-radius: 20px;
+    padding: 38px 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 0px 20px 0px #3B3B3B4D;
+
+}
+
+.carousel-item__background-image1,
+.carousel-item__background-image2,
+.carousel-item__background-image3, {
+    float: left;
+    margin-right: 25px;
+
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    padding: 28px 55px;
+
+    background-image: url("/assets/images/круг.png");
+    background-size: cover;
+}
+
+.carousel-item__name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+
+    text-align: left;
+    color: #3B3B3B;
+
+}
+
+.carousel-item__adress {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.carousel-item__feedback {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.carousel-item__link {
+
+    color: #EA5D80;
+}
+
+.carousel-control-prev-icon2 {
+
+    background-image: url("/assets/images/стрелка_влево_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-right: 15px;
+
+}
+
+.carousel-control-next-icon2 {
+    background-image: url("/assets/images/стрелка_вправо_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-left: 80px;
+}
+
+
 /*Пятая секция*/
 .five-section {
     display: grid;
     grid-template-columns: 49% 49%;
+
 
     max-width: 1400px;
     padding-left: 10%;
@@ -215,8 +345,8 @@ h2 {
 }
 
 .five-section__col1 {
-    margin-top: 100px;
-    gap: 93px;
+    margin-top: 70px;
+
 }
 
 video {
@@ -224,4 +354,54 @@ video {
     border-radius: 40px;
     overflow: hidden;
     margin-top: 70px;
+    margin-left: -25px;
+}
+
+/*шестая секция*/
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    margin-top: 23px;
+
+}
+
+.card__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.six-section {
+    max-width: 1400px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+
+}
+
+.cards {
+    margin-top: 141px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+    text-align: center;
+}
+
+
+.card-section {
+    display: grid;
+    justify-items: center;
+    width: 262px;
+}
+
+.card__img {
+    max-width: 100%;
 }
