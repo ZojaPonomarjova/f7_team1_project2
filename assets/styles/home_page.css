@@ -1,44 +1,40 @@
 @charset "UTF-8";
-.body {
+body {
   max-width: 100%;
 }
 
-main {
-  max-width: 1400px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: auto;
-}
-
-/* первая секция. шрифты и позиционирование*/
-h1 {
+h2 {
   font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 60px;
   line-height: 70px;
-  margin-bottom: 12px;
-}
-
-.first-section__title {
-  color: #3b3b3b;
+  color: #3B3B3B;
 }
 
 .text_color {
   color: #EA5D80;
 }
 
-.first-section__text {
+.text {
   font-family: 'Jost', sans-serif;
-  font-style: regular;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   color: #3B3B3B;
-  margin-bottom: 39px;
 }
 
-.first-section__btn {
+.text_2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18, 66px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+/*Кнопка*/
+.button {
   width: 170px;
   height: 40px;
   background-color: #EA5D80;
@@ -57,44 +53,48 @@ h1 {
   margin-bottom: 18px;
 }
 
-.first-section__text2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 18, 66px;
-  letter-spacing: 0px;
-  text-align: left;
+.first-section__background-pink {
+  background-image: url(../images/home_page_background.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: top;
+  background-size: 130%;
 }
 
+/*Позиционирование первая секция*/
 .first-section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 39% 59%;
       grid-template-columns: 39% 59%;
-  margin-bottom: 0%;
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
 }
 
 .first-section__col1 {
   display: -ms-grid;
   display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-top: 110px;
 }
 
 .first-section__col2 {
   height: 567px;
   width: 846px;
-  margin-top: 71px;
 }
 
 .first-section__img1 {
-  max-width: 90%;
+  max-width: 80%;
+  margin-top: 71px;
 }
 
-/* вторая секция. шрифты и позиционирование*/
+/*Вторая секция*/
 .second-section {
   height: 678px;
+  margin-top: 150px;
 }
 
 .second-section__col1 {
@@ -103,24 +103,6 @@ h1 {
   justify-items: center;
   margin-top: 110px;
   height: 78px;
-}
-
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-weight: 700;
-  color: #3B3B3B;
-  margin-bottom: 0%;
-}
-
-.second-section__subtitle {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  color: #3B3B3B;
 }
 
 .second_section__img {
@@ -133,7 +115,7 @@ h2 {
   gap: 29.5px;
 }
 
-/* третья секция. шрифты и позиционирование*/
+/*Третья секция*/
 .third-section {
   height: 419px;
   background-color: #F4F4F4;
@@ -142,31 +124,19 @@ h2 {
 .third-section__col1 {
   display: -ms-grid;
   display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-weight: 700;
-  color: #3B3B3B;
-  margin-top: 0px;
-  margin-bottom: 0%;
+.third-section__carousel {
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
 }
 
-.third-section__subtitle {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #3B3B3B;
-  text-align: center;
-}
-
-/*карусель третьей секции*/
+/*Карусель*/
 .img-fluid {
   height: 214px;
   width: 214px;
@@ -214,136 +184,38 @@ h3 {
   margin-left: 80px;
 }
 
-/* четвертая секция. шрифты и позиционирование*/
+/*Четвертая секция*/
 .four-section__col1 {
   display: -ms-grid;
   display: grid;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-h4 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 78px;
-  letter-spacing: 0px;
   text-align: center;
-  color: #3B3B3B;
-  margin-top: 48px;
+  margin-top: 18px;
 }
 
-.four-section__subtitle {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #3B3B3B;
-  line-height: 78px;
-  letter-spacing: 0px;
-  text-align: center;
-}
-
-/* пятая секция. шрифты и позиционирование*/
+/*Пятая секция*/
 .five-section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 49% 49%;
       grid-template-columns: 49% 49%;
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+}
+
+.five-section__col1 {
   margin-top: 100px;
   gap: 93px;
 }
 
-h5 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 78px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #3B3B3B;
-  margin-top: 48px;
-}
-
-.five-section__subtitle {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #3B3B3B;
-  text-align: left;
-  line-height: 26px;
-  letter-spacing: 0px;
-  margin-top: 10px;
-}
-
-.five-section__img1 {
-  width: 503px;
+video {
   height: 353px;
+  border-radius: 40px;
+  overflow: hidden;
   margin-top: 70px;
-}
-
-/*шестая секция*/
-.six-section {
-  margin-top: 141px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-}
-
-.card-section {
-  display: -ms-grid;
-  display: grid;
-  justify-items: center;
-  width: 262px;
-}
-
-.card__img {
-  height: 121px;
-  width: 121px;
-}
-
-h6 {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0px;
-  color: #3B3B3B;
-  margin-top: 23px;
-}
-
-.card__text {
-  font-family: 'Jost', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: justify;
-  color: #3B3B3B;
-}
-
-/*седьмая секция*/
-.seven-section {
-  height: 460px;
-  background-color: #F4F4F4;
-  margin-top: 56px;
-}
-
-.seven-section__title {
-  padding-top: 36px;
-}
-
-/*карусель седьмой секции*/
-.img-seven {
-  margin-right: 19px;
-  margin-top: 29px;
 }
 /*# sourceMappingURL=home_page.css.map */
