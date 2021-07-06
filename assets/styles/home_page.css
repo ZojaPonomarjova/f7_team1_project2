@@ -200,18 +200,20 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  margin-top: 18px;
+  margin-top: 48px;
 }
 
 /*карусель*/
-#carouselExampleIndicators__photo1,
-#carouselExampleIndicators__photo2,
-#carouselExampleIndicators__photo3 {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  position: relative;
-  bottom: -40px;
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #749CCF;
+  margin-right: 16px;
+}
+
+.carousel-indicators .active {
+  background-color: #F39D90;
 }
 
 #carouselExampleIndicators__photo1 {
@@ -238,7 +240,7 @@ h2 {
   padding: 38px 55px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
+  margin-left: 11%;
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 0px 20px 0px #3B3B3B4D;
           box-shadow: 0px 0px 20px 0px #3B3B3B4D;
@@ -301,7 +303,8 @@ h2 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-right: 15px;
+  margin-left: 174%;
+  position: absolute;
 }
 
 .carousel-control-next-icon2 {
@@ -310,7 +313,8 @@ h2 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-left: 80px;
+  margin-right: 198%;
+  position: absolute;
 }
 
 /*Пятая секция*/
