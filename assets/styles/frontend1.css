@@ -65,7 +65,7 @@
 
 /*кнопки*/
 
-.first-section__button {
+.button {
     width: 170px;
     height: 40px;
     background-color: #FF92BF;
@@ -256,7 +256,7 @@
 }
 
 .carousel-indicators .active {
-    background-color: #F39D90;
+    background-color: #FF92BF;
 }
 
 .carousel-item {
@@ -901,4 +901,330 @@
     line-height: 30px;
 
     color: #3B3B3B;
+}
+
+/*одиннадцатая секция*/
+
+.eleventh-section {
+    display: grid;
+    grid-template-columns: 1.2fr 602px 40px 20% 15% 1fr;
+    grid-template-rows: 200px 162px 210px 1fr;
+
+    padding-top: 190px;
+}
+
+.eleventh-section__cv {
+    grid-area: 1/2/5/3;
+
+    max-width: 602px;
+    border-radius: 25px;
+    padding: 5% 10%;
+
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+    background-color: #FFF;
+}
+
+.eleventh-section__title {
+    grid-area: 1/4/2/6;
+}
+
+.eleventh-section__picture {
+    grid-area: 2/4/4/5;
+
+    display: grid;
+    grid-template-columns: 72px 171px;
+    grid-template-rows: 100%;
+
+    height: 217px;
+}
+
+.eleventh-section__conteiner {
+    grid-area: 2/5/3/6;
+}
+
+.eleventh-section__white-background {
+    grid-area: 1/1/3/7;
+
+    background-color: #FFF;
+}
+
+.eleventh-section__pink-background {
+    grid-area: 3/1/5/7;
+
+    background-color: #FF92BF;
+}
+
+.eleventh-section__picture-cat {
+    grid-area: 1/1/2/3;
+}
+
+.eleventh-section__picture-ball {
+    grid-area: 1/2/2/3;
+
+    align-self: flex-end;
+    z-index: 1;
+}
+
+.cv__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    color: #3B3B3B;
+}
+
+.cv__position {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #3B3B3B;
+}
+
+.cv__subtitle {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #3B3B3B;
+}
+
+.eleventh-section__text-with-margin {
+    margin-left: 15px;
+}
+
+.cv__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 25px;
+
+    background-image: url(../images/frontend1-avatar.png);
+    background-size: cover;
+}
+
+.cv__header {
+    display: flex;
+    align-items: center;
+}
+
+.cv__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FF92BF;
+}
+
+/*двенадцатая секция*/
+
+.twelfth-section {
+    background-color: #FF92BF;
+
+    padding-bottom: 70px;
+}
+
+.twelfth-section__conteiner {
+    max-width: 1200px;
+    margin: auto;
+
+    padding-top: 90px;
+    padding-left: 110px;
+}
+
+.twelfth-section__question {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #3B3B3B;
+    text-decoration: underline;
+}
+
+.twelfth-section__question:hover {
+    color: #3B3B3B;
+}
+
+.twelfth-section__card {
+    background-color: #FF92BF;
+    border: none;
+    padding-left: 0px;
+}
+
+.twelfth-section__title {
+    padding-bottom: 25px;
+}
+
+.twelfth-section__link {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-top: 30px;
+
+    color: #FFF;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.twelfth-section__link:hover {
+    color: #ffdce3;
+}
+
+.twelfth-section__conteiner2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*тринадцатая секция*/
+
+.thirteenth-section {
+    max-width: 1000px;
+    margin: auto;
+
+    padding-bottom: 75px;
+}
+
+.thirteenth-section__title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.thirteenth-section__text {
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.thirteenth-section__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FF92BF;
+}
+
+#carousel-indicators__base {
+    width: 340px;
+    height: 105px;
+
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px;
+    text-indent: unset;
+    border: none;
+}
+
+#thirteenth-section__carousel-indicators li {
+    background-color: #FFF;
+}
+
+#thirteenth-section__carousel-indicators .active {
+    background-color: #FF92BF;
+}
+
+#carousel-indicators__cozy {
+    width: 340px;
+    height: 105px;
+
+    border-radius: 0px 25px 25px 0px;
+    margin: 0px;
+    text-indent: unset;
+    border: none;
+}
+
+#thirteenth-section__carousel-indicators {
+    display: flex;
+    justify-content: center;
+    width: 680px;
+    height: 105px;
+    border-radius: 25px;
+
+    position: relative;
+    top: -20px;
+    left: 15px;
+
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.thirteenth-section__conteiner_white-background {
+    width: 340px;
+    height: 105px;
+
+    border-radius: 10px 0px 0px 10px;
+}
+
+.thirteenth-section__carousel-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-right: 35%;
+}
+
+.thirteenth-section__rate-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+
+    color: #3B3B3B;
+}
+
+.thirteenth-section__small-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #3B3B3B;
+}
+
+.thirteenth-section__conteiner {
+    padding: 5% 12%;
+}
+
+.carousel-item__new-price {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+
+    color: #3B3B3B;
+}
+
+.carousel-item__old-price {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+
+    text-decoration: line-through;
+    color: #CCCACB;
+}
+
+.carousel-item__price-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 405px;
+    height: 85px;
+    border-radius: 25px;
+
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.carousel-item__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #FF92BF;
+}
+
+.carousel-item__pink-text span {
+    font-size: 36px;
+}
+
+.thirteenth-section__button {
+    margin-top: 45px;
+    width: fit-content;
+    padding: 5px 51px;
 }
