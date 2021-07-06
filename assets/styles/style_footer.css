@@ -1,5 +1,4 @@
 footer,
-.footer-container,
 .footer-copyright,
 .footer-contacts,
 .footer-mailer,
@@ -7,25 +6,17 @@ footer,
 .info-footer {
     display: grid;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     line-height: 24px;
 }
 
 .footer-img {
-    margin-left: 40px;
-}
-
-.footer-container {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: rgba(59, 59, 59, 1);
-}
-
-.footer-container {
-
-    color: white;
-    padding-left: 50px;
+    margin-left: 11%;
+    grid-row: 3/4;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -51,20 +42,14 @@ a:hover {
 
 .footer-contacts {
     grid-row: 2/3;
-
-}
-
-.footer-img {
-    grid-row: 3/4;
-    margin-top: 10px;
 }
 
 .footer-mailer {
     grid-column: 3/4;
     background-color: rgba(80, 80, 80, 1);
     border-radius: 10%;
-    padding: 20px;
-    padding-bottom: 20px;
+    padding: 8%;
+    padding-bottom: 8%;
 }
 
 .footer-useful {
@@ -99,12 +84,12 @@ button {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    width: 153px;
+    width: 70%;
     height: 38px;
 }
 
 .text {
-    margin-bottom: 13px;
+    margin-bottom: 10%;
 }
 
 li {
@@ -129,4 +114,48 @@ ul {
     padding-left: 10%;
     color: #F39D90;
     padding: 8px;
+}
+
+@media screen and (min-width: 960px) {
+    footer {
+        display: grid;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgba(59, 59, 59, 1);
+        color: white;
+        padding-left: 11%;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    footer {
+        display: grid;
+        background-color: rgba(59, 59, 59, 1);
+        color: white;
+        max-width: 100%;
+    }
+
+    .footer-copyright {
+        grid-row: 1/2;
+        margin-top: 5vh;
+    }
+
+    .footer-useful {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        margin-top: 5vh;
+    }
+
+    .info-footer {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        margin-top: 5vh;
+    }
+
+    .years,
+    .school,
+    .footer-mailer,
+    img {
+        display: none;
+    }
 }
