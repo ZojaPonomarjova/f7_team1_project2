@@ -3,10 +3,13 @@
 }
 
 main {
-    max-width: 1400px;
+    // max-width: 1400px;
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+    background-image: url(/assets/images/intensive_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -55,78 +58,90 @@ h5 {
     color: rgba(0, 0, 0, 1);
 }
 
-// img {
-//     max-width: 100%;
-// }
-// надо ли?
 
+
+
+// Секция 1
 
 .main-section {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    // flex-wrap: nowrap;
 }
 
 .main-section__col1 {
     flex-basis: 40%;
-}
 
-.main-sectoin__text {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    color: #3B3B3B;
-}
+    @media screen and (max-width: 960px) {
+        flex-basis: 100%;
 
-.main-sectoin__btn {
-    border: 0;
-    text-align: center;
-    padding: 7px 41px;
-    text-decoration: none;
-    box-shadow: none;
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17.995px;
-    line-height: 45px;
-    border-radius: 25px;
-    background: #22BB78;
-    color: #FFFFFF;
-}
+    }
 
-.main-sectoin__text2 {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    color: #3B3B3B;
+
+    .main-sectoin__text {
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #3B3B3B;
+    }
+
+    .main-sectoin__btn {
+        border: 0;
+        text-align: center;
+        padding: 7px 41px;
+        text-decoration: none;
+        box-shadow: none;
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17.995px;
+        line-height: 45px;
+        border-radius: 25px;
+        background: #22BB78;
+        color: #FFFFFF;
+    }
+
+    .main-sectoin__text2 {
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: #3B3B3B;
+    }
 }
 
 .main-section__img1 {
-    // max-width: 100%;
     grid-area: 2/2/3/3;
 }
 
 .main-section__col2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    // grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
-    // background-image: url(assets/image/Vector_1.png);
+    @media screen and (max-width: 960px) {
+        display: none;
+    }
+
 }
 
 .main-section__img2 {
     max-width: 100%;
     grid-area: 1/1/4/4;
 
-    // background: #C2EDCF;
+}
+
+.main-section__col2 {
+    flex-basis: 60%;
+
 }
 
 
 
+// Секция 2
 
 .section-2 {
     display: grid;
@@ -245,6 +260,7 @@ h5 {
 }
 
 
+// Секция-3
 
 .section-3 {
     background-color: #F4F4F4;
@@ -253,6 +269,7 @@ h5 {
 
 
 
+// Секция-4
 
 
 .section-4 {
@@ -282,7 +299,12 @@ h5 {
     color: #3B3B3B;
 }
 
+
+// Секция-5
+
 .section-5 {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -311,6 +333,8 @@ h5 {
 
 
 .section-5__tasks__text {
+    max-width: 1400px;
+    margin: auto;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -327,39 +351,119 @@ h5 {
 
 
 
+// Секция-6
 
 
 .section-6 {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    // justify-content: space-around;
+    justify-content: space-between;
 
     .section-6__img {
+        width: 10vw;
+    }
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+
+
+
+// Секция-7
+
+
+
+// Секция-8
+
+
+.section-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .section-8__img {
         max-width: 100%;
     }
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
+        align-items: center;
     }
 
 }
 
-.section-8 {
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
 
-    @media screen and (max-width: 960px) {
-        flex-direction: column;
-    }
 
+.section-8__text {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #3B3B3B;
 }
+
+
+
+// Секция-9
+
 
 .section-9 {
-    border: 1px solid black;
-    border-radius: 3% 3% 3% 3%;
+    width: 50vw;
+    margin: auto;
+    border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+    background-color: #FFF;
+
+    @media screen and (max-width: 960px) {
+        width: 70vw;
+
+    }
 }
+
+.section-9__title {
+    padding: 50px 20px 0px 60px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        font-size: 20px;
+        line-height: 16px;
+        padding: 10px 10px 10px 10px;
+
+
+    }
+
+}
+
+.section-9__text {
+    padding: 0px 20px 20px 60px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        font-size: 14px;
+        line-height: 12px;
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+
+// Секция-10
 
 .section-10 {
     display: flex;
