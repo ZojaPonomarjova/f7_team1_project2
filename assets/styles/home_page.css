@@ -136,7 +136,7 @@ h2 {
   margin: auto;
 }
 
-/*Карусель*/
+/*Карусель. */
 .img-fluid {
   height: 214px;
   width: 214px;
@@ -397,5 +397,58 @@ h4 {
 
 .card__img {
   max-width: 100%;
+}
+
+/*Седьмая секция*/
+.seven-section {
+  height: 463px;
+  background-color: #F4F4F4;
+}
+
+.seven-section__col1 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seven-section__title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.seven-section__carousel {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/*Карусель-3 */
+.img-fluid2 {
+  max-width: 100%;
+  margin-right: 1%;
+  margin-top: 15px;
+}
+
+.carousel-item3 {
+  margin-left: 7%;
+}
+
+.carousel-control-prev-icon3 {
+  background-image: url("/assets/images/стрелка_влево_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-right: 45%;
+}
+
+.carousel-control-next-icon3 {
+  background-image: url("/assets/images/стрелка_вправо_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-left: 20%;
 }
 /*# sourceMappingURL=home_page.css.map */

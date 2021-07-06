@@ -141,7 +141,7 @@ h2 {
     margin: auto;
 }
 
-/*Карусель*/
+/*Карусель. */
 .img-fluid {
     height: 214px;
     width: 214px;
@@ -198,7 +198,7 @@ h2 {
 
 /*Бэк-2*/
 
-.background_2{
+.background_2 {
     background-image: url(../images/home_page_background2.png);
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -206,6 +206,7 @@ h2 {
     background-size: 180%;
 
 }
+
 /*Четвертая секция*/
 .four-section__carousel {
     max-width: 1400px;
@@ -246,14 +247,17 @@ h2 {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
 }
+
 #carouselExampleIndicators__photo2 {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
 }
+
 #carouselExampleIndicators__photo3 {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
 }
+
 .carousel-item__first,
 .carousel-item__second,
 .carousel-item__third {
@@ -273,7 +277,8 @@ h2 {
 
 .carousel-item__background-image1,
 .carousel-item__background-image2,
-.carousel-item__background-image3, {
+.carousel-item__background-image3,
+    {
     float: left;
     margin-right: 25px;
 
@@ -335,7 +340,7 @@ h2 {
     width: 55px;
     border-radius: 0px;
     margin-left: 174%;
-    position:absolute;
+    position: absolute;
 
 }
 
@@ -346,7 +351,7 @@ h2 {
     width: 55px;
     border-radius: 0px;
     margin-right: 198%;
-    position:absolute;
+    position: absolute;
 }
 
 
@@ -422,4 +427,62 @@ h4 {
 
 .card__img {
     max-width: 100%;
+}
+
+
+/*Седьмая секция*/
+.seven-section {
+    height: 463px;
+    background-color: #F4F4F4;
+}
+
+.seven-section__col1 {
+    display: grid;
+    justify-content: center;
+
+}
+
+.seven-section__title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.seven-section__carousel {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*Карусель-3 */
+.img-fluid2 {
+    max-width: 100%;
+    margin-right: 1%;
+    margin-top: 15px;
+
+}
+
+
+.carousel-item3 {
+    margin-left: 7%;
+}
+
+
+.carousel-control-prev-icon3 {
+
+    background-image: url("/assets/images/стрелка_влево_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-right: 45%;
+
+
+}
+
+.carousel-control-next-icon3 {
+    background-image: url("/assets/images/стрелка_вправо_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-left: 20%;
 }
