@@ -34,6 +34,8 @@ h2 {
 
     @media screen and (max-width: 960px) {
         font-size: 30px;
+        line-height: 38px;
+
         // На всех страницах такой шрифт надо на моб устройствах????
     }
 
@@ -75,6 +77,7 @@ h5 {
 
     @media screen and (max-width: 960px) {
         flex-basis: 100%;
+        text-align: center;
 
     }
 
@@ -141,7 +144,7 @@ h5 {
 
 
 
-// Секция 2
+// Секция 2 готова
 
 .section-2 {
     display: grid;
@@ -269,10 +272,12 @@ h5 {
 
 
 
-// Секция-4
+// Секция-4 готова
 
 
 .section-4 {
+    max-width: 1400px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -282,8 +287,6 @@ h5 {
     @media screen and (max-width: 960px) {
         grid-template-columns: 1fr;
     }
-
-
 }
 
 .card__img {
@@ -300,7 +303,7 @@ h5 {
 }
 
 
-// Секция-5
+// Секция-5 готова
 
 .section-5 {
     max-width: 1400px;
@@ -347,12 +350,15 @@ h5 {
     align-items: center;
     width: 50%;
 
+    @media screen and (max-width: 960px) {
+        width: 100%;
+    }
+
 }
 
 
 
-// Секция-6
-
+// Секция-6 (готова)
 
 .section-6 {
     max-width: 1400px;
@@ -360,14 +366,25 @@ h5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    .section-6__img {
-        width: 10vw;
-    }
+    gap: 30px;
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
     }
+}
+
+.section-6__item {
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+    background-color: #FFF;
+    padding: 10px 10px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    color: #3B3B3B;
+    text-align: center;
 }
 
 
@@ -380,14 +397,25 @@ h5 {
 // Секция-8
 
 
+.section-8__text {
+    max-width: 1400px;
+    margin: auto;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #3B3B3B;
+}
+
 .section-8 {
+    max-width: 1400px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
-    .section-8__img {
-        max-width: 100%;
-    }
+    justify-content: space-around;
+    padding-top: 40px;
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
@@ -397,16 +425,14 @@ h5 {
 }
 
 
+.section-8__project {
+    width: 380px;
+    height: 320px;
+    border-radius: 20px;
 
-.section-8__text {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
-    color: #3B3B3B;
+    background: #3B3B3B;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
 }
-
 
 
 // Секция-9
@@ -466,6 +492,30 @@ h5 {
 // Секция-10
 
 .section-10 {
+    max-width: 1400px;
+    margin: auto;
+    width: 895px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+
+    }
+
+    .section-10__text {
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #3B3B3B;
+    }
+
+
+
+
 }
