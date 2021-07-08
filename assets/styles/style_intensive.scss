@@ -3,16 +3,15 @@
 }
 
 main {
-    // max-width: 1400px;
-    padding-left: 10%;
-    padding-right: 10%;
+    // убрать??
+
+    // padding-left: 10%;
+    // padding-right: 10%;
     margin: auto;
     background-image: url(/assets/images/intensive_background.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -24,6 +23,8 @@ h1 {
 }
 
 h2 {
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -35,8 +36,6 @@ h2 {
     @media screen and (max-width: 960px) {
         font-size: 30px;
         line-height: 38px;
-
-        // На всех страницах такой шрифт надо на моб устройствах????
     }
 
 }
@@ -62,12 +61,13 @@ h5 {
 
 
 
-
-// Секция 1
+// Секция 1 (как сделать зеленый фон больше?)
 
 .main-section {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row;
 }
@@ -78,9 +78,7 @@ h5 {
     @media screen and (max-width: 960px) {
         flex-basis: 100%;
         text-align: center;
-
     }
-
 
     .main-sectoin__text {
         font-family: 'Jost', sans-serif;
@@ -128,25 +126,23 @@ h5 {
     @media screen and (max-width: 960px) {
         display: none;
     }
-
 }
 
 .main-section__img2 {
     max-width: 100%;
     grid-area: 1/1/4/4;
-
 }
 
 .main-section__col2 {
     flex-basis: 60%;
-
 }
-
 
 
 // Секция 2 готова
 
 .section-2 {
+    padding-left: 10%;
+    padding-right: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
@@ -157,16 +153,10 @@ h5 {
     @media screen and (max-width: 960px) {
         grid-template-columns: 1fr;
         justify-items: center;
-
     }
-
 }
 
-
 .section-2__col1__text {
-    // align-self: end;
-    // justify-self: center;
-
     justify-items: end;
     font-family: 'Jost', sans-serif;
     font-style: normal;
@@ -175,12 +165,6 @@ h5 {
     line-height: 43px;
     color: #3A3A3A;
 }
-
-
-
-
-
-
 
 .section-2__col2 {
     display: grid;
@@ -263,10 +247,88 @@ h5 {
 }
 
 
-// Секция-3
+// Секция-3 немного самодеятельности)
 
 .section-3 {
     background-color: #F4F4F4;
+}
+
+.section-3__items {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 960px) {
+        // flex-direction: column;
+        gap: 100px;
+
+    }
+
+}
+
+.section-3__items__1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+}
+
+.section-3__items__2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
+
+}
+
+
+.section-3__item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+    justify-content: flex-end;
+
+    .section-3__pic {
+        width: 100px;
+    }
+
+
+    .section-3__text {
+        text-align: center;
+        margin: 0;
+        font-family: 'Jost',
+            sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #3B3B3B;
+
+    }
+}
+
+
+.section-3__img {
+    max-width: 100%;
 }
 
 
@@ -274,10 +336,11 @@ h5 {
 
 // Секция-4 готова
 
-
 .section-4 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -308,6 +371,8 @@ h5 {
 .section-5 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -334,10 +399,11 @@ h5 {
     }
 }
 
-
 .section-5__tasks__text {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -353,9 +419,7 @@ h5 {
     @media screen and (max-width: 960px) {
         width: 100%;
     }
-
 }
-
 
 
 // Секция-6 (готова)
@@ -363,6 +427,8 @@ h5 {
 .section-6 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -389,18 +455,17 @@ h5 {
 
 
 
-
 // Секция-7
 
 
 
-// Секция-8
-
+// Секция-8 готова
 
 .section-8__text {
     max-width: 1400px;
     margin: auto;
-
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -412,31 +477,30 @@ h5 {
 .section-8 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 30px;
     padding-top: 40px;
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
         align-items: center;
     }
-
 }
-
 
 .section-8__project {
     width: 380px;
     height: 320px;
     border-radius: 20px;
-
     background: #3B3B3B;
     box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
 }
 
 
-// Секция-9
-
+// Секция-9 готова
 
 .section-9 {
     width: 50vw;
@@ -447,13 +511,11 @@ h5 {
 
     @media screen and (max-width: 960px) {
         width: 70vw;
-
     }
 }
 
 .section-9__title {
     padding: 50px 20px 0px 60px;
-
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
@@ -465,15 +527,11 @@ h5 {
         font-size: 20px;
         line-height: 16px;
         padding: 10px 10px 10px 10px;
-
-
     }
-
 }
 
 .section-9__text {
     padding: 0px 20px 20px 60px;
-
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -486,7 +544,6 @@ h5 {
         line-height: 12px;
         padding: 10px 10px 10px 10px;
     }
-
 }
 
 // Секция-10
@@ -494,6 +551,8 @@ h5 {
 .section-10 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 895px;
     display: flex;
     flex-direction: row;
@@ -503,7 +562,6 @@ h5 {
         flex-direction: column;
         align-items: center;
         width: auto;
-
     }
 
     .section-10__text {
@@ -514,8 +572,82 @@ h5 {
         line-height: 30px;
         color: #3B3B3B;
     }
+}
+
+// секция-11
+
+
+
+// секция-12
 
 
 
 
+// секция-13
+
+.section-13 {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 40px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.section-13__project {
+    width: 380px;
+    height: 320px;
+    border-radius: 20px;
+    background: #3B3B3B;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+}
+
+// секция-14
+
+
+.section-14__term {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 30px;
+    color: #3B3B3B;
+
+
+
+    .section-14__term__red {
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18.0097px;
+        line-height: 30px;
+        color: rgba(228, 58, 86, 1);
+
+    }
+}
+
+.section-14__btn {
+    // text-align: center;
+    border: 0;
+    text-align: center;
+    padding: 7px 41px;
+    text-decoration: none;
+    box-shadow: none;
+    border-radius: 25px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.0097px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #E43A56;
 }
