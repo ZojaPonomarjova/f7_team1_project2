@@ -28,7 +28,7 @@ h2 {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 18, 66px;
+  line-height: 18px;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -255,8 +255,8 @@ h2 {
           box-shadow: 0px 0px 20px 0px #3B3B3B4D;
 }
 
-.carousel-item__background-image1,
-.carousel-item__background-image2,
+.carousel-item__background-image1
+.carousel-item__background-image2
 .carousel-item__background-image3 {
   float: left;
   margin-right: 25px;
@@ -379,13 +379,14 @@ h4 {
 }
 
 .cards {
-  margin-top: 141px;
+  margin-top: 200px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   gap: 21px;
   text-align: center;
+  margin-left: 7%;
 }
 
 .card-section {
