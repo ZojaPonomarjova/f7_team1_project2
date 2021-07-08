@@ -28,7 +28,7 @@ h2 {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 18, 66px;
+  line-height: 18px;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -255,8 +255,8 @@ h2 {
           box-shadow: 0px 0px 20px 0px #3B3B3B4D;
 }
 
-.carousel-item__background-image1,
-.carousel-item__background-image2,
+.carousel-item__background-image1
+.carousel-item__background-image2
 .carousel-item__background-image3 {
   float: left;
   margin-right: 25px;
@@ -379,13 +379,14 @@ h4 {
 }
 
 .cards {
-  margin-top: 141px;
+  margin-top: 200px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   gap: 21px;
   text-align: center;
+  margin-left: 7%;
 }
 
 .card-section {
@@ -401,7 +402,7 @@ h4 {
 
 /*Седьмая секция*/
 .seven-section {
-  height: 463px;
+  height: 460px;
   background-color: #F4F4F4;
 }
 
@@ -414,8 +415,7 @@ h4 {
 }
 
 .seven-section__title {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .seven-section__carousel {
@@ -424,14 +424,36 @@ h4 {
 }
 
 /*Карусель-3 */
-.img-fluid2 {
+.img-fluid2__text {
   max-width: 100%;
   margin-right: 1%;
   margin-top: 15px;
 }
 
-.carousel-item3 {
-  margin-left: 7%;
+.seven-section__carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 280px;
+  margin-top: 29px;
+}
+
+.carousel-inner__text {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3B3B3B;
+  margin-top: 13px;
 }
 
 .carousel-control-prev-icon3 {
@@ -440,7 +462,7 @@ h4 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-right: 45%;
+  margin-right: 5%;
 }
 
 .carousel-control-next-icon3 {
@@ -449,6 +471,6 @@ h4 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-left: 20%;
+  margin-left: 50%;
 }
 /*# sourceMappingURL=home_page.css.map */
