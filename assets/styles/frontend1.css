@@ -1623,6 +1623,8 @@
     .carousel-item__background-image2,
     .carousel-item__background-image3 {
         float: none;
+        max-height: 173px;
+        max-width: 100%;
     }
 
     .carousel-item__content {
@@ -1684,5 +1686,98 @@
         width: 15vw;
         height: 15vw;
         left: -10px;
+        max-width: 73px;
+        max-height: 73px;
+    }
+
+    /*одиннадцатая секция*/
+
+    .eleventh-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.15fr 178px;
+        padding-top: 130px;
+    }
+
+    .eleventh-section__cv {
+        grid-area: 2/1/4/2;
+        max-width: 602px;
+        border-radius: 15px;
+        width: 90%;
+
+        justify-self: center;
+    }
+
+    .eleventh-section__title {
+        grid-area: 1/1/2/2;
+
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .eleventh-section__conteiner {
+        grid-area: 4/1/5/2;
+
+        display: block;
+
+        margin-left: 10%;
+    }
+
+    .eleventh-section__picture {
+        grid-area: 4/1/6/2;
+        display: grid;
+        grid-template-columns: 72px 171px;
+        grid-template-rows: 100%;
+        height: 217px;
+
+        justify-self: center;
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .cv__pink-text {
+        color: white;
+    }
+
+    .eleventh-section__pink-background {
+        grid-area: 3/1/6/2;
+    }
+
+    .eleventh-section__white-background {
+        grid-area: 1/1/3/2;
+    }
+
+    .cv__header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cv__name {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 961px) {
+    .eleventh-section__title {
+        font-size: 5vw;
+    }
+
+    .eleventh-section__picture {
+        grid-area: 3/4/4/5;
+        display: grid;
+        grid-template-columns: 72px 171px;
+        grid-template-rows: 100%;
+        height: 217px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content-conteiner__subtitle {
+        font-size: 26px;
+    }
+
+    .layout-designer-info__salary {
+        font-size: 25px;
     }
 }
