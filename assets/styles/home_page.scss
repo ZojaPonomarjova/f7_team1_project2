@@ -432,9 +432,9 @@ h4 {
 
 /*Седьмая секция*/
 .seven-section {
-    height: 463px;
+    height: 460px;
     background-color: #F4F4F4;
-    
+
 }
 
 .seven-section__col1 {
@@ -444,8 +444,8 @@ h4 {
 }
 
 .seven-section__title {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+
 }
 
 .seven-section__carousel {
@@ -454,18 +454,37 @@ h4 {
 }
 
 /*Карусель-3 */
-.img-fluid2 {
+
+
+.img-fluid2__text {
     max-width: 100%;
     margin-right: 1%;
     margin-top: 15px;
 
+
 }
 
+.seven-section__carousel-inner {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 280px;
+    margin-top: 29px;
 
-.carousel-item3 {
-    margin-left: 7%;
 }
 
+.carousel-inner__text {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3B3B3B;
+    margin-top: 13px;
+
+}
 
 .carousel-control-prev-icon3 {
 
@@ -474,7 +493,7 @@ h4 {
     height: 55px;
     width: 55px;
     border-radius: 0px;
-    margin-right: 45%;
+    margin-right: 10%;
 
 
 }
@@ -485,5 +504,5 @@ h4 {
     height: 55px;
     width: 55px;
     border-radius: 0px;
-    margin-left: 20%;
+    margin-left: 50%;
 }
