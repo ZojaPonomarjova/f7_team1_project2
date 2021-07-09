@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="header__nav header__nav-main">
             <div class="logo"> <img src="assets/images/header_img.png" alt="девушка с ноутбуком, просто о сложном"
                     class="img_header">
             </div>
@@ -25,6 +25,34 @@
                 <li><a class="menu" href="/courses.html">Курсы</a></li>
                 <li><a class="menu" href="/login.html">Войти</a></li>
             </ul>
+        </nav>
+
+        <div class="logo-alternative"> <img src="assets/images/header_img.png" alt="девушка с ноутбуком, просто о сложном"
+            class="img_header">
+    </div>
+        <nav class="header__nav header__nav-alternative" id="alternative-nav">
+            <div id="menuToggle">
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Профессии</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Вебинар</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Курсы</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Войти</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 </body>

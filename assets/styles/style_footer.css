@@ -83,6 +83,7 @@ button {
     border-bottom-left-radius: 25px;
     width: 70%;
     height: 38px;
+    border: none;
 }
 
 .text {
