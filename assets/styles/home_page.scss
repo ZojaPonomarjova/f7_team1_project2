@@ -3,15 +3,20 @@ body {
 
 }
 
-
-
-
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
     color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        font-size: 30px;
+        line-height: 38px;
+        br {
+            display: none;
+        }
+    }
 }
 
 .text_color {
@@ -24,6 +29,13 @@ h2 {
     font-size: 18px;
     line-height: 26px;
     color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        
+        br {
+            display: none;
+        }
+    }
 }
 
 .text_2 {
@@ -149,6 +161,13 @@ h4 {
     background-position-y: top;
     background-size: 130%;
 
+    @media screen and (max-width: 960px) {
+        background-position-x: 90%;
+        background-position-y: top;
+        background-size: 150%;
+}
+
+
 
 
 }
@@ -163,6 +182,18 @@ h4 {
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+
+    @media screen and (max-width: 960px) {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+        
+}
+
 }
 
 .first-section__col1 {
@@ -170,11 +201,22 @@ h4 {
     align-content: start;
     margin-top: 110px;
 
+    @media screen and (max-width: 960px) {
+
+        margin-top: 5%;
 }
+
+}
+
+
 
 .first-section__col2 {
     height: 567px;
     width: 846px;
+
+    @media screen and (max-width: 960px) {
+        display: none;
+    }
 
 }
 
