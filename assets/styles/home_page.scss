@@ -37,6 +37,84 @@ h2 {
 
 }
 
+/*Шрифты карусели*/
+
+
+.carousel-item__name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+
+    text-align: left;
+    color: #3B3B3B;
+
+}
+
+.carousel-item__adress {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.carousel-item__feedback {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+/*Шрифты 6й секции*/
+
+
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    margin-top: 23px;
+
+}
+
+.card__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/*Шрифты карусели 7й секции*/
+
+.carousel-inner__text {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3B3B3B;
+    margin-top: 13px;
+
+}
+
 /*Кнопка*/
 .button {
     width: 170px;
@@ -57,6 +135,11 @@ h2 {
     text-align: center;
     margin-bottom: 18px;
 
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #ffdce3;
 }
 
 .first-section__background-pink {
@@ -275,9 +358,9 @@ h2 {
 
 }
 
-.carousel-item__background-image1
-.carousel-item__background-image2
-.carousel-item__background-image3
+.carousel-item__background-image1,
+.carousel-item__background-image2,
+.carousel-item__background-image3,
     {
     float: left;
     margin-right: 25px;
@@ -289,42 +372,6 @@ h2 {
 
     background-image: url("/assets/images/круг.png");
     background-size: cover;
-}
-
-.carousel-item__name {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 27px;
-    letter-spacing: 0px;
-
-    text-align: left;
-    color: #3B3B3B;
-
-}
-
-.carousel-item__adress {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.carousel-item__feedback {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 100px;
-    padding-top: 20px;
 }
 
 .carousel-item__link {
@@ -381,27 +428,6 @@ video {
 }
 
 /*шестая секция*/
-h4 {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: #3B3B3B;
-    margin-top: 23px;
-
-}
-
-.card__text {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
-}
-
 .six-section {
     max-width: 1400px;
     padding-left: 10%;
@@ -475,18 +501,7 @@ h4 {
 
 }
 
-.carousel-inner__text {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #3B3B3B;
-    margin-top: 13px;
 
-}
 
 .carousel-control-prev-icon3 {
 
