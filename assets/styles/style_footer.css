@@ -19,13 +19,16 @@ footer,
     max-width: 100%;
 }
 
-a {
+.footer_menu,
+.e-mail {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+.footer_menu:hover,
+.e-mail:hover {
     text-decoration: underline;
+    color: #F39D90;
 }
 
 .footer-title {
@@ -56,10 +59,13 @@ a:hover {
     grid-column: 4/5;
 }
 
-
+.mailer-text {
+    color: white;
+}
 
 .mailer-line {
     padding-bottom: 4px;
+    color: white;
 }
 
 input {
@@ -74,7 +80,7 @@ input {
     padding-left: 23px;
 }
 
-button {
+.mailer-button {
     margin-top: 5px;
     background-color: #F39D90;
     border-top-left-radius: 25px;
@@ -122,6 +128,7 @@ ul {
         background-color: rgba(59, 59, 59, 1);
         color: white;
         padding-left: 11%;
+        padding-right: 5%;
     }
 
     .info-footer {
@@ -136,6 +143,7 @@ ul {
         background-color: rgba(59, 59, 59, 1);
         color: white;
         max-width: 100%;
+        overflow: hidden;
     }
 
     .footer-copyright {
