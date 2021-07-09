@@ -1,3 +1,7 @@
+@import url(./style_header.css);
+@import url(./style_footer.css);
+
+
 /*шрифты*/
 .first-section__subtitle {
     font-family: 'Jost', sans-serif;
@@ -1399,7 +1403,7 @@
     }
 
     .content-box {
-        width: 90%;
+        width: 100%;
     }
 
     /*карусель*/
