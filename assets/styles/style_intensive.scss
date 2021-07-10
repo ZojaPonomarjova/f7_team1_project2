@@ -1,35 +1,11 @@
 @import url(./style_header.css);
 @import url(./style_footer.css);
 
-
-
-
-
-
-// Куда свойство box-sizing: content-box;???
-
-// html {
-//     box-sizing: content-box;
-// }
-
-
-.section {
-    box-sizing: content-box;
-}
-
-
-
-
 .body {
     max-width: 100%;
 }
 
 main {
-    // убрать??
-
-    // padding-left: 10%;
-    // padding-right: 10%;
-    // margin: auto;
     background-image: url(/assets/images/intensive_background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -64,16 +40,10 @@ h2 {
     }
 }
 
-
-// ИЛИ ЭТО УБРАТЬ???
 ::after,
 ::before {
     box-sizing: content-box;
 }
-
-// ИЛИ ЭТО УБРАТЬ???
-
-
 
 
 h3 {
@@ -305,9 +275,7 @@ h5 {
     @media screen and (max-width: 960px) {
         // flex-direction: column;
         gap: 100px;
-
     }
-
 }
 
 .section-3__items__1 {
@@ -320,7 +288,6 @@ h5 {
     @media screen and (max-width: 960px) {
         flex-direction: column;
         gap: 50px;
-
     }
 
 }
@@ -350,7 +317,6 @@ h5 {
         width: 100px;
     }
 
-
     .section-3__text {
         text-align: center;
         margin: 0;
@@ -361,16 +327,12 @@ h5 {
         font-size: 16px;
         line-height: 26px;
         color: #3B3B3B;
-
     }
 }
-
 
 .section-3__img {
     max-width: 100%;
 }
-
-
 
 
 // Секция-4 готова
@@ -431,13 +393,10 @@ h5 {
     align-items: flex-start;
     gap: 10px;
 
-
     .section-5__task {
         display: flex;
         flex-direction: row;
         align-items: center;
-
-
     }
 }
 
@@ -461,9 +420,10 @@ h5 {
 }
 
 .section-5__video {
+    max-width: 100%;
     align-items: center;
     width: 50%;
-    box-sizing: content-box;
+    // box-sizing: content-box;
 
     @media screen and (max-width: 960px) {
         width: 100%;
@@ -503,7 +463,6 @@ h5 {
 }
 
 
-
 // Секция-7
 
 .section-7 {
@@ -515,7 +474,6 @@ h5 {
 }
 
 .section-7__title {
-
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -532,9 +490,6 @@ h5 {
     line-height: 35px;
     color: #3B3B3B;
 }
-
-
-
 
 
 /*аккордеон*/
@@ -581,7 +536,6 @@ h5 {
     @media screen and (max-width: 960px) {
         gap: 2px;
     }
-
 }
 
 .section-7__title__accordion {
@@ -596,7 +550,6 @@ h5 {
     @media screen and (max-width: 960px) {
         padding-right: 0;
     }
-
 }
 
 .section-7__btn {
@@ -619,7 +572,6 @@ h5 {
     @media screen and (max-width: 960px) {
         display: none;
     }
-
 }
 
 .section-7__circle {
@@ -631,7 +583,6 @@ h5 {
     @media screen and (max-width: 960px) {
         display: none;
     }
-
 }
 
 .section-7__lesson {
@@ -681,7 +632,6 @@ h5 {
     @media screen and (max-width: 960px) {
         flex-wrap: wrap;
     }
-
 }
 
 .card__right-column {
@@ -689,9 +639,6 @@ h5 {
     flex-direction: row;
     gap: 10px;
 }
-
-
-
 
 // Секция-8 готова
 
@@ -736,13 +683,13 @@ h5 {
         width: 180px;
         height: 120px;
     }
-
 }
 
 
 // Секция-9 готова
 
 .section-9 {
+    max-width: 1400px;
     width: 50vw;
     margin: auto;
     border-radius: 20px;
@@ -815,14 +762,170 @@ h5 {
     }
 }
 
-// секция-11
+// секция-11 (карусель)
+
+.section-11__carousel {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-11__subtitle {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 78px;
+    color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        line-height: 30px;
+    }
+}
 
 
+.section-11__item {
+    width: 620px;
+    height: 431.84px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+    display: flex;
+    flex-direction: column;
 
-// секция-12
+    @media screen and (max-width: 960px) {
+        width: auto;
+        height: auto;
+    }
+
+}
 
 
+.section-11__item__name {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.013px;
+    line-height: 7px;
+    color: #3B3B3B;
+}
 
+.section-11__item__text {
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 30px;
+    color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        line-height: 20px;
+    }
+}
+
+.section-11__item__title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        align-items: center
+    }
+
+}
+
+.section-11__foto2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background: #3A3A3A;
+}
+
+.section-11__item__email {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2828px;
+    line-height: 27px;
+    color: #3B3B3B;
+}
+
+.section-11__item__title2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+    @media screen and (max-width: 960px) {
+        align-items: center
+    }
+
+}
+
+.section-11__item__link {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #F39D90;
+}
+
+
+// секция-12 (карусель)
+
+.seven-section__carousel {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.seven-section__item {
+    width: 380px;
+    height: 220px;
+    border-radius: 20px;
+    background: #3B3B3B;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+
+    @media screen and (max-width: 960px) {
+        max-width: 180px;
+        height: 80px;
+    }
+}
+
+.seven-section__carousel-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon3 {
+    background-image: url("/assets/images/стрелка_влево_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+}
+
+.carousel-control-next-icon3 {
+    background-image: url("/assets/images/стрелка_вправо_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+}
 
 // секция-13 готова
 
@@ -863,7 +966,6 @@ h5 {
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-
 }
 
 .section-13__link1 {
@@ -888,8 +990,6 @@ h5 {
     line-height: 30px;
     color: #3B3B3B;
 
-
-
     .section-14__term__red {
         font-family: 'Jost', sans-serif;
         font-style: normal;
@@ -897,12 +997,10 @@ h5 {
         font-size: 18.0097px;
         line-height: 30px;
         color: rgba(228, 58, 86, 1);
-
     }
 }
 
 .section-14__btn {
-    // text-align: center;
     border: 0;
     text-align: center;
     padding: 7px 41px;
