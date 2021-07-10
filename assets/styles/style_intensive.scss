@@ -420,9 +420,10 @@ h5 {
 }
 
 .section-5__video {
+    max-width: 100%;
     align-items: center;
     width: 50%;
-    box-sizing: content-box;
+    // box-sizing: content-box;
 
     @media screen and (max-width: 960px) {
         width: 100%;
@@ -688,6 +689,7 @@ h5 {
 // Секция-9 готова
 
 .section-9 {
+    max-width: 1400px;
     width: 50vw;
     margin: auto;
     border-radius: 20px;
@@ -762,6 +764,13 @@ h5 {
 
 // секция-11 (карусель)
 
+.section-11__carousel {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .section-11__subtitle {
     max-width: 1400px;
     margin: auto;
@@ -774,145 +783,103 @@ h5 {
     font-size: 18.0097px;
     line-height: 78px;
     color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        line-height: 30px;
+    }
 }
 
 
-.carousel-item1 {
-    display: flex;
-
-}
-
-
-
-// Юлино
-
-
-
-
-.carousel-indicators__near-walls {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -5%;
-    margin-right: 0%;
-
-}
-
-
-.carouselExampleIndicators__name {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 13px;
-
-    color: #3B3B3B;
-
-    position: relative;
-    bottom: -160px;
-    right: -35px;
-    margin-right: 30%;
-
-    text-indent: initial;
-
-}
-
-#carouselExampleIndicators__photo1,
-#carouselExampleIndicators__photo2,
-#carouselExampleIndicators__photo3 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-
-    position: relative;
-    bottom: 230px;
-    opacity: 1;
-}
-
-.carousel-indicators__near-walls .active {
-    display: none;
-}
-
-#carouselExampleIndicators__photo1,
-#carouselExampleIndicators__photo2,
-#carouselExampleIndicators__photo3 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
-
-}
-
-.carousel-item__first,
-.carousel-item__second,
-.carousel-item__third {
-
+.section-11__item {
     width: 620px;
     height: 431.84px;
-    border-radius: 20px;
-    padding: 38px 55px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 11%;
-    background-color: #FFFFFF;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.3);
+    display: flex;
+    flex-direction: column;
 
-    box-shadow: 0px 0px 20px 0px #3B3B3B4D;
-
-
-
-}
-
-// .carousel-item__background-image1,
-// .carousel-item__background-image2,
-// .carousel-item__background-image3,
-//     {
-//     float: left;
-//     margin-right: 25px;
-
-//     width: 173px;
-//     height: 173px;
-//     border-radius: 50%;
-//     padding: 28px 55px;
-
-//     background-image: url("/assets/images/круг.png");
-//     background-size: cover;
-
-
-// }
-
-.carousel-item__link {
-
-    color: #EA5D80;
-}
-
-.carousel-control-prev-icon2 {
-
-    background-image: url("/assets/images/стрелка_влево_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-left: 174%;
-    position: absolute;
+    @media screen and (max-width: 960px) {
+        width: auto;
+        height: auto;
+    }
 
 }
 
-.carousel-control-next-icon2 {
-    background-image: url("/assets/images/стрелка_вправо_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-right: 198%;
-    position: absolute;
+
+.section-11__item__name {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.013px;
+    line-height: 7px;
+    color: #3B3B3B;
 }
 
+.section-11__item__text {
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 30px;
+    color: #3B3B3B;
 
+    @media screen and (max-width: 960px) {
+        line-height: 20px;
+    }
+}
 
+.section-11__item__title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
 
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        align-items: center
+    }
 
+}
 
+.section-11__foto2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background: #3A3A3A;
+}
 
+.section-11__item__email {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.2828px;
+    line-height: 27px;
+    color: #3B3B3B;
+}
 
+.section-11__item__title2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
 
+    @media screen and (max-width: 960px) {
+        align-items: center
+    }
 
+}
 
-
+.section-11__item__link {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0097px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #F39D90;
+}
 
 
 // секция-12 (карусель)
