@@ -548,7 +548,6 @@ h5 {
 }
 
 .section-5__video {
-  max-width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -559,6 +558,10 @@ h5 {
   .section-5__video {
     width: 100%;
   }
+}
+
+.section-5__video1 {
+  max-width: 100%;
 }
 
 .section-6 {

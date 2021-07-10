@@ -432,13 +432,18 @@ h5 {
 }
 
 .section-5__video {
-    max-width: 100%;
+    // max-width: 100%;
     align-items: center;
     width: 50%;
 
     @media screen and (max-width: 960px) {
         width: 100%;
     }
+}
+
+.section-5__video1 {
+    max-width: 100%;
+
 }
 
 
