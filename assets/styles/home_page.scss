@@ -13,6 +13,7 @@ h2 {
     @media screen and (max-width: 960px) {
         font-size: 30px;
         line-height: 38px;
+
         br {
             display: none;
         }
@@ -31,7 +32,7 @@ h2 {
     color: #3B3B3B;
 
     @media screen and (max-width: 960px) {
-        
+
         br {
             display: none;
         }
@@ -49,44 +50,6 @@ h2 {
 
 }
 
-/*Шрифты карусели*/
-
-
-.carousel-item__name {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 27px;
-    letter-spacing: 0px;
-
-    text-align: left;
-    color: #3B3B3B;
-
-}
-
-.carousel-item__adress {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.carousel-item__feedback {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 100px;
-    padding-top: 20px;
-}
 
 /*Шрифты 6й секции*/
 
@@ -165,7 +128,7 @@ h4 {
         background-position-x: 90%;
         background-position-y: top;
         background-size: 150%;
-}
+    }
 
 
 
@@ -191,8 +154,8 @@ h4 {
         padding-left: 5%;
         padding-right: 5%;
         margin: auto;
-        
-}
+
+    }
 
 }
 
@@ -204,7 +167,7 @@ h4 {
     @media screen and (max-width: 960px) {
 
         margin-top: 5%;
-}
+    }
 
 }
 
@@ -339,6 +302,8 @@ h4 {
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+
+
 }
 
 .four-section__col1 {
@@ -346,41 +311,61 @@ h4 {
     justify-content: center;
     text-align: center;
     margin-top: 48px;
+
+
 }
 
 
 /*карусель*/
 
 
-
-.carousel-indicators li {
-
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: #749CCF;
-    margin-right: 16px;
+.carousel-indicators__near-walls {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5%;
+    margin-right: 0%;
 
 }
 
-.carousel-indicators .active {
-    background-color: #F39D90;
+
+.carouselExampleIndicators__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 13px;
+
+    color: #3B3B3B;
+
+    position: relative;
+    bottom: -160px;
+    right: -35px;
+    margin-right: 30%;
+
+    text-indent: initial;
 
 }
 
-#carouselExampleIndicators__photo1 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
-}
-
-#carouselExampleIndicators__photo2 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
-}
-
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
 #carouselExampleIndicators__photo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 230px;
+    opacity: 1;
+}
+
+.carousel-indicators__near-walls .active {
+    display: none;
+}
+
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
+#carouselExampleIndicators__photo3  {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
+
 }
 
 .carousel-item__first,
@@ -398,6 +383,8 @@ h4 {
 
     box-shadow: 0px 0px 20px 0px #3B3B3B4D;
 
+
+
 }
 
 .carousel-item__background-image1,
@@ -414,6 +401,8 @@ h4 {
 
     background-image: url("/assets/images/круг.png");
     background-size: cover;
+
+
 }
 
 .carousel-item__link {
@@ -443,6 +432,44 @@ h4 {
     position: absolute;
 }
 
+/*Шрифты карусели*/
+
+
+.carousel-item__name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+
+    text-align: left;
+    color: #3B3B3B;
+
+}
+
+.carousel-item__adress {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.carousel-item__feedback {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 100px;
+    padding-top: 20px;
+}
 
 /*Пятая секция*/
 .five-section {
