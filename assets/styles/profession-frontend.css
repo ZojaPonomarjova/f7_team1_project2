@@ -169,6 +169,7 @@
 
 .first-section__text {
     grid-area: 4/2/5/3;
+    padding-bottom: 25px;
 }
 
 .first-section__button {
