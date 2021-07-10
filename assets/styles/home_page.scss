@@ -1,13 +1,12 @@
+
 @import url(./style_header.css);
 @import url(./style_footer.css);
 
 body {
+
     max-width: 100%;
 
 }
-
-
-
 
 h2 {
     font-family: 'Playfair Display', serif;
@@ -15,6 +14,7 @@ h2 {
     font-size: 60px;
     line-height: 70px;
     color: #3B3B3B;
+
 }
 
 .text_color {
@@ -42,6 +42,46 @@ h2 {
 
 }
 
+
+/*Шрифты 6й секции*/
+
+
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #3B3B3B;
+    margin-top: 23px;
+
+}
+
+.card__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/*Шрифты карусели 7й секции*/
+
+.carousel-inner__text {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3B3B3B;
+    margin-top: 13px;
+
+}
+
 /*Кнопка*/
 .button {
     width: 170px;
@@ -64,12 +104,18 @@ h2 {
 
 }
 
+.button:hover {
+    text-decoration: none;
+    color: #ffdce3;
+}
+
 .first-section__background-pink {
     background-image: url(../images/home_page_background.png);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: top;
     background-size: 130%;
+
 
 
 
@@ -99,9 +145,12 @@ h2 {
 
 }
 
+
+
 .first-section__col2 {
     height: 567px;
     width: 846px;
+
 
 }
 
@@ -224,6 +273,8 @@ h2 {
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+
+
 }
 
 .four-section__col1 {
@@ -231,31 +282,53 @@ h2 {
     justify-content: center;
     text-align: center;
     margin-top: 48px;
+
+
 }
 
 
 /*карусель*/
 
 
-
-.carousel-indicators li {
-
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: #749CCF;
-    margin-right: 16px;
+.carousel-indicators__near-walls {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5%;
+    margin-right: 0%;
 
 }
 
-.carousel-indicators .active {
-    background-color: #F39D90;
+
+.carouselExampleIndicators__name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 13px;
+
+    color: #3B3B3B;
+
+    position: relative;
+    bottom: -160px;
+    right: -35px;
+    margin-right: 30%;
+
+    text-indent: initial;
 
 }
 
-#carouselExampleIndicators__photo1 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
+#carouselExampleIndicators__photo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    position: relative;
+    bottom: 230px;
+    opacity: 1;
+}
+
+.carousel-indicators__near-walls .active {
+    display: none;
 }
 
 #carouselExampleIndicators__photo1,
@@ -263,11 +336,7 @@ h2 {
 #carouselExampleIndicators__photo3 {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
-}
 
-#carouselExampleIndicators__photo3 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
 }
 
 .carousel-item__first,
@@ -285,9 +354,13 @@ h2 {
 
     box-shadow: 0px 0px 20px 0px #3B3B3B4D;
 
+
+
 }
 
-.carousel-item__background-image1 .carousel-item__background-image2 .carousel-item__background-image3 {
+.carousel-item__background-image1,
+.carousel-item__background-image2,
+.carousel-item__background-image3{
     float: left;
     margin-right: 25px;
 
@@ -298,7 +371,39 @@ h2 {
 
     background-image: url("/assets/images/круг.png");
     background-size: cover;
+
+
 }
+
+.carousel-item__link {
+
+    color: #EA5D80;
+}
+
+.carousel-control-prev-icon2 {
+
+    background-image: url("/assets/images/стрелка_влево_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-left: 174%;
+    position: absolute;
+
+}
+
+.carousel-control-next-icon2 {
+    background-image: url("/assets/images/стрелка_вправо_карусель.png");
+    background-size: 55px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0px;
+    margin-right: 198%;
+    position: absolute;
+}
+
+/*Шрифты карусели*/
+
 
 .carousel-item__name {
     font-family: 'Playfair Display', serif;
@@ -336,34 +441,6 @@ h2 {
     padding-top: 20px;
 }
 
-.carousel-item__link {
-
-    color: #EA5D80;
-}
-
-.carousel-control-prev-icon2 {
-
-    background-image: url("/assets/images/стрелка_влево_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-left: 174%;
-    position: absolute;
-
-}
-
-.carousel-control-next-icon2 {
-    background-image: url("/assets/images/стрелка_вправо_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-right: 198%;
-    position: absolute;
-}
-
-
 /*Пятая секция*/
 .five-section {
     display: grid;
@@ -390,27 +467,6 @@ video {
 }
 
 /*шестая секция*/
-h4 {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: #3B3B3B;
-    margin-top: 23px;
-
-}
-
-.card__text {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
-}
-
 .six-section {
     max-width: 1400px;
     padding-left: 10%;
@@ -484,18 +540,7 @@ h4 {
 
 }
 
-.carousel-inner__text {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #3B3B3B;
-    margin-top: 13px;
 
-}
 
 .carousel-control-prev-icon3 {
 
