@@ -1,3 +1,6 @@
+@import url(./style_header.css);
+@import url(./style_footer.css);
+
 body {
     max-width: 100%;
 
@@ -24,6 +27,8 @@ h2 {
     font-size: 18px;
     line-height: 26px;
     color: #3B3B3B;
+
+
 }
 
 .text_2 {
@@ -80,12 +85,17 @@ h2 {
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+
+
+
 }
 
 .first-section__col1 {
     display: grid;
     align-content: start;
     margin-top: 110px;
+
+
 
 }
 
@@ -248,7 +258,9 @@ h2 {
     background-size: cover;
 }
 
-#carouselExampleIndicators__photo2 {
+#carouselExampleIndicators__photo1,
+#carouselExampleIndicators__photo2,
+#carouselExampleIndicators__photo3 {
     background-image: url("/assets/images/круг.png");
     background-size: cover;
 }
@@ -504,4 +516,134 @@ h4 {
     width: 55px;
     border-radius: 0px;
     margin-left: 50%;
+}
+
+/*Адаптив max-width: 960px*/
+
+
+@media screen and (max-width: 960px) {
+
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    /*Первая секция*/
+
+
+    .first-section__title {
+        font-size: 33px;
+        line-height: 38px;
+        display: grid;
+
+        br {
+            display: none;
+        }
+
+    }
+
+
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .first-section__background-pink {
+        background-position-x: 90%;
+        background-position-y: top;
+        background-size: 150%;
+
+    }
+
+    /*Позиционирование первая секция*/
+
+    .first-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+
+    }
+
+    .first-section__col1 {
+
+        margin-top: 5%;
+
+    }
+
+    .first-section__col2 {
+        display: none;
+    }
+
+
+    /*Вторая секция*/
+
+    .second-section {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+
+    }
+
+    .second-section__col1 {
+
+        margin-top: 10%;
+        height: 5%;
+
+    }
+
+
+    .second_section__img {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+
+        border: 1px solid yellow;
+    }
+
+    .second_section__img_1,
+    .second_section__img_2 {
+        max-width: 100%;
+    }
+
+
+    /*Третья секция*/
+
+
+
+    .third-section {
+        display: none;
+        background-color: #F4F4F4;
+        margin-top: 60%;
+    }
+
+
+
+
+
+    .four-section__carousel {
+        display: none;
+    }
+
+
+    .five-section {
+
+        display: none;
+    }
+
+
+
+    .six-section {
+        display: none;
+    }
+
+    .seven-section {
+        display: none;
+    }
 }
