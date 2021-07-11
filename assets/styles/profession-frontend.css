@@ -1031,7 +1031,7 @@
 
 .eleventh-section {
     display: grid;
-    grid-template-columns: 1.2fr 602px 40px 20% 15% 1fr;
+    grid-template-columns: 1fr 602px 3% 20% 14% 1fr;
     grid-template-rows: 200px 162px 210px 1fr;
 
     padding-top: 190px;
