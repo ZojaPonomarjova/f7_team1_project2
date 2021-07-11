@@ -120,11 +120,11 @@ h4 {
   -ms-flex-line-pack: start;
       align-content: start;
   margin-top: 110px;
+  margin-bottom: 90px;
 }
 
 .first-section__col2 {
-  height: 567px;
-  width: 846px;
+  margin-top: 100px;
 }
 
 .first-section__img1 {
