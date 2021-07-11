@@ -135,6 +135,10 @@ h2 {
   margin: auto;
 }
 
+.carousel-alternative {
+  display: none;
+}
+
 /*Каруселька №1*/
 .img-fluid {
   max-width: 100%;
