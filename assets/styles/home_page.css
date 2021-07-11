@@ -1,10 +1,11 @@
 @charset "UTF-8";
-@import url(./style_header.css);
 @import url(./style_footer.css);
 body {
   max-width: 100%;
 }
 
+/*Первая секция*/
+/*Шрифты*/
 h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -17,14 +18,6 @@ h2 {
   color: #EA5D80;
 }
 
-.text {
-  font-family: 'Jost', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  color: #3B3B3B;
-}
-
 .text_2 {
   font-family: 'Playfair Display', serif;
   font-size: 14px;
@@ -33,40 +26,6 @@ h2 {
   line-height: 18px;
   letter-spacing: 0px;
   text-align: left;
-}
-
-/*Шрифты 6й секции*/
-h4 {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0px;
-  color: #3B3B3B;
-  margin-top: 23px;
-}
-
-.card__text {
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-}
-
-/*Шрифты карусели 7й секции*/
-.carousel-inner__text {
-  font-family: 'Jost', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #3B3B3B;
-  margin-top: 13px;
 }
 
 /*Кнопка*/
@@ -94,15 +53,16 @@ h4 {
   color: #ffdce3;
 }
 
+/*Позиционирование background-image на первой и второй секции*/
 .first-section__background-pink {
   background-image: url(../images/home_page_background.png);
   background-repeat: no-repeat;
-  background-position-x: 50%;
+  background-position-x: 70%;
   background-position-y: top;
-  background-size: 130%;
+  background-size: 140%;
 }
 
-/*Позиционирование первая секция*/
+/*Позиционирование 1-ой секции */
 .first-section {
   display: -ms-grid;
   display: grid;
@@ -112,6 +72,7 @@ h4 {
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
+  padding-bottom: 150px;
 }
 
 .first-section__col1 {
@@ -119,68 +80,63 @@ h4 {
   display: grid;
   -ms-flex-line-pack: start;
       align-content: start;
-  margin-top: 110px;
-  margin-bottom: 90px;
+  margin-top: 179px;
 }
 
 .first-section__col2 {
-  margin-top: 100px;
+  height: 567px;
+  width: 846px;
 }
 
 .first-section__img1 {
-  max-width: 80%;
+  max-width: 100%;
   margin-top: 71px;
 }
 
 /*Вторая секция*/
 .second-section {
-  height: 678px;
-  margin-top: 150px;
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 130px;
+  padding-bottom: 90px;
+  margin: auto;
 }
 
 .second-section__col1 {
   display: -ms-grid;
   display: grid;
   justify-items: center;
-  margin-top: 110px;
-  height: 78px;
 }
 
 .second_section__img {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 332px 332px;
-      grid-template-columns: 332px 332px;
-  -ms-grid-rows: 431px 431px;
-      grid-template-rows: 431px 431px;
-  gap: 29.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  max-width: 100%;
 }
 
-/*Третья секция*/
+/*Третья секция.Карусель.*/
 .third-section {
-  height: 419px;
   background-color: #F4F4F4;
 }
 
 .third-section__col1 {
   display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-items: center;
 }
 
 .third-section__carousel {
   max-width: 1400px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 20px 10% 86px 10%;
   margin: auto;
 }
 
-/*Карусель. */
+/*Каруселька №1*/
 .img-fluid {
-  height: 214px;
-  width: 214px;
+  max-width: 100%;
   margin-right: 15px;
   margin-top: 10px;
 }
@@ -203,7 +159,7 @@ h4 {
 }
 
 .carousel-indicators {
-  left: 4%;
+  left: 8%;
   bottom: -80px;
 }
 
@@ -222,38 +178,33 @@ h4 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-left: 80px;
+  margin-left: 140px;
+  padding-left: 150px;
 }
 
-/*Бэк-2*/
+/*Четвертая секция.Каруселька с шариками и background-image-2*/
+/*Фоновое изображение*/
 .background_2 {
   background-image: url(../images/home_page_background2.png);
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: 45%;
-  background-size: 180%;
+  background-position-y: 35%;
+  background-size: 150%;
 }
 
-/*Четвертая секция*/
 .four-section__carousel {
   max-width: 1400px;
-  height: 752px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 50px 10% 86px 10%;
   margin: auto;
 }
 
 .four-section__col1 {
   display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  margin-top: 48px;
+  justify-items: center;
 }
 
-/*карусель*/
+/*Каруселька №2*/
 .carousel-indicators__near-walls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,8 +212,8 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: -5%;
-  margin-right: 0%;
+  margin-left: -10%;
+  margin-right: -2%;
 }
 
 .carouselExampleIndicators__name {
@@ -347,7 +298,7 @@ h4 {
   height: 55px;
   width: 55px;
   border-radius: 0px;
-  margin-right: 198%;
+  margin-right: 170%;
   position: absolute;
 }
 
@@ -386,15 +337,21 @@ h4 {
   padding-top: 20px;
 }
 
-/*Пятая секция*/
+/*Пятая секция с мультиком*/
+/*Шрифты*/
+.five-section__title {
+  line-height: 78px;
+  letter-spacing: 0px;
+}
+
 .five-section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 49% 49%;
       grid-template-columns: 49% 49%;
+  gap: 93px;
   max-width: 1400px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 20px 10% 86px 10%;
   margin: auto;
 }
 
@@ -403,30 +360,50 @@ h4 {
 }
 
 video {
-  height: 353px;
+  height: 20vw;
   border-radius: 40px;
   overflow: hidden;
   margin-top: 70px;
-  margin-left: -25px;
+  margin-left: -35px;
 }
 
-/*шестая секция*/
+/*Шестая секция*/
+/*Шрифты*/
+h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #3B3B3B;
+  margin-top: 23px;
+}
+
+.card__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
 .six-section {
   max-width: 1400px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 56px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
 }
 
 .cards {
-  margin-top: 200px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   gap: 21px;
   text-align: center;
-  margin-left: 7%;
+  margin-left: 5%;
 }
 
 .card-section {
@@ -442,28 +419,36 @@ video {
 
 /*Седьмая секция*/
 .seven-section {
-  height: 460px;
   background-color: #F4F4F4;
+}
+
+.seven-section__carousel {
+  max-width: 1400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
 }
 
 .seven-section__col1 {
   display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-items: center;
 }
 
-.seven-section__title {
-  margin-top: 30px;
+/*Каруселька №3*/
+/*Шрифты карусели 7й секции*/
+.carousel-inner__text {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3B3B3B;
+  margin-top: 13px;
 }
 
-.seven-section__carousel {
-  max-width: 1400px;
-  margin: auto;
-}
-
-/*Карусель-3 */
 .img-fluid2__text {
   max-width: 100%;
   margin-right: 1%;
@@ -500,96 +485,5 @@ video {
   width: 55px;
   border-radius: 0px;
   margin-left: 50%;
-}
-
-/*Адаптив max-width: 960px*/
-@media screen and (max-width: 960px) {
-  h2 {
-    font-size: 30px;
-    line-height: 38px;
-  }
-  /*Первая секция*/
-  .first-section__title {
-    font-size: 33px;
-    line-height: 38px;
-    display: -ms-grid;
-    display: grid;
-  }
-  .first-section__title br {
-    display: none;
-  }
-  .button {
-    margin-top: 20px;
-  }
-  .first-section__background-pink {
-    background-position-x: 90%;
-    background-position-y: top;
-    background-size: 150%;
-  }
-  /*Позиционирование первая секция*/
-  .first-section {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: auto;
-  }
-  .first-section__col1 {
-    margin-top: 5%;
-  }
-  .first-section__col2 {
-    display: none;
-  }
-  /*Вторая секция*/
-  .second-section {
-    margin-top: 10px;
-    margin-bottom: 100px;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin: auto;
-  }
-  .second-section__col1 {
-    margin-top: 10%;
-    height: 5%;
-  }
-  .second_section__img {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    border: 1px solid yellow;
-  }
-  .second_section__img_1,
-  .second_section__img_2 {
-    max-width: 100%;
-  }
-  /*Третья секция*/
-  .third-section {
-    display: none;
-    background-color: #F4F4F4;
-    margin-top: 60%;
-  }
-  .four-section__carousel {
-    display: none;
-  }
-  .five-section {
-    display: none;
-  }
-  .six-section {
-    display: none;
-  }
-  .seven-section {
-    display: none;
-  }
 }
 /*# sourceMappingURL=home_page.css.map */
