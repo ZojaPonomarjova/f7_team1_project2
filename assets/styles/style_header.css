@@ -105,7 +105,7 @@ li {
         display: block;
         position: relative;
         top: 30px;
-        left: 75vw;
+        left: 90vw;
 
         z-index: 1;
 
@@ -192,7 +192,7 @@ li {
         -webkit-font-smoothing: antialiased;
 
         transform-origin: 0% 0%;
-        transform: translate(-300%, 0);
+        transform: translate(-350%, 0);
 
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
