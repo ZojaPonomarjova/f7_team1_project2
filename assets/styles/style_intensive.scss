@@ -40,6 +40,14 @@ h2 {
     }
 }
 
+.h2__special {
+    @media screen and (max-width: 960px) {
+        font-size: 25px;
+        line-height: 18px;
+    }
+
+}
+
 ::after,
 ::before {
     box-sizing: content-box;
@@ -67,7 +75,7 @@ h5 {
 
 
 
-// Секция 1 (как сделать зеленый фон больше?)
+// Секция 1
 
 .main-section {
     max-width: 1400px;
@@ -147,7 +155,7 @@ h5 {
 }
 
 
-// Секция 2 готова
+// Секция 2
 
 .section-2 {
     padding-left: 10%;
@@ -155,7 +163,6 @@ h5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    // justify-content: end;
     justify-items: end;
     align-items: center;
 
@@ -256,7 +263,7 @@ h5 {
 }
 
 
-// Секция-3 немного самодеятельности)
+// Секция-3 (немного самодеятельности)
 
 .section-3 {
     background-color: #F4F4F4;
@@ -265,7 +272,6 @@ h5 {
 .section-3__items {
     padding-left: 10%;
     padding-right: 10%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -273,7 +279,6 @@ h5 {
     flex-wrap: wrap;
 
     @media screen and (max-width: 960px) {
-        // flex-direction: column;
         gap: 100px;
     }
 }
@@ -289,7 +294,6 @@ h5 {
         flex-direction: column;
         gap: 50px;
     }
-
 }
 
 .section-3__items__2 {
@@ -302,7 +306,6 @@ h5 {
     @media screen and (max-width: 960px) {
         flex-direction: column;
     }
-
 }
 
 
@@ -335,7 +338,7 @@ h5 {
 }
 
 
-// Секция-4 готова
+// Секция-4
 
 .section-4 {
     max-width: 1400px;
@@ -344,7 +347,6 @@ h5 {
     padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 40px 60px;
     text-align: center;
     box-sizing: content-box;
@@ -368,7 +370,7 @@ h5 {
 }
 
 
-// Секция-5 готова
+// Секция-5
 
 .section-5 {
     max-width: 1400px;
@@ -400,6 +402,16 @@ h5 {
     }
 }
 
+.section-5__task__img {
+    max-width: 100%;
+
+    @media screen and (max-width: 960px) {
+        max-width: 50%;
+    }
+}
+
+
+
 .section-5__tasks__text {
     max-width: 1400px;
     margin: auto;
@@ -420,18 +432,22 @@ h5 {
 }
 
 .section-5__video {
-    max-width: 100%;
+    // max-width: 100%;
     align-items: center;
     width: 50%;
-    // box-sizing: content-box;
 
     @media screen and (max-width: 960px) {
         width: 100%;
     }
 }
 
+.section-5__video1 {
+    max-width: 100%;
 
-// Секция-6 (готова)
+}
+
+
+// Секция-6
 
 .section-6 {
     max-width: 1400px;
@@ -470,7 +486,6 @@ h5 {
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-
 }
 
 .section-7__title {
@@ -640,7 +655,7 @@ h5 {
     gap: 10px;
 }
 
-// Секция-8 готова
+// Секция-8
 
 .section-8__text {
     max-width: 1400px;
@@ -686,7 +701,7 @@ h5 {
 }
 
 
-// Секция-9 готова
+// Секция-9
 
 .section-9 {
     max-width: 1400px;
@@ -762,6 +777,12 @@ h5 {
     }
 }
 
+.section-10__sertificate {
+    @media screen and (max-width: 960px) {
+        max-width: 100%;
+    }
+}
+
 // секция-11 (карусель)
 
 .section-11__carousel {
@@ -789,7 +810,6 @@ h5 {
     }
 }
 
-
 .section-11__item {
     width: 620px;
     height: 431.84px;
@@ -803,7 +823,6 @@ h5 {
         width: auto;
         height: auto;
     }
-
 }
 
 
@@ -840,7 +859,6 @@ h5 {
         flex-direction: column;
         align-items: center
     }
-
 }
 
 .section-11__foto2 {
@@ -868,7 +886,6 @@ h5 {
     @media screen and (max-width: 960px) {
         align-items: center
     }
-
 }
 
 .section-11__item__link {
@@ -927,7 +944,7 @@ h5 {
     border-radius: 0px;
 }
 
-// секция-13 готова
+// секция-13
 
 .section-13 {
     max-width: 1400px;
@@ -983,6 +1000,7 @@ h5 {
 
 .section-14__term {
     text-align: center;
+    padding-bottom: 30px;
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -1014,4 +1032,256 @@ h5 {
     line-height: 30px;
     color: #FFFFFF;
     background: #E43A56;
+}
+
+// карусель с ценами
+
+.carousel {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.payment__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #3B3B3B;
+
+}
+
+.payment__text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3B3B3B;
+}
+
+.payment__button {
+    width: 170px;
+    height: 40px;
+    background-color: #E43A56;
+    color: #FFF;
+    border-radius: 25px;
+    padding: 5px 38px;
+    box-sizing: border-box;
+
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.payment__button :hover {
+    color: #F9D2CB;
+}
+
+.payment {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 75px;
+}
+
+.payment__title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.payment__text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.payment__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #E43A56;
+}
+
+#carousel-indicators__base {
+    width: 340px;
+    height: 105px;
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px;
+    text-indent: unset;
+    border: none;
+}
+
+#payment__carousel-indicators li {
+    background-color: #FFF;
+}
+
+#payment__carousel-indicators .active {
+    background-color: #E43A56;
+}
+
+#carousel-indicators__cozy {
+    width: 340px;
+    height: 105px;
+    border-radius: 0px 25px 25px 0px;
+    margin: 0px;
+    text-indent: unset;
+    border: none;
+}
+
+#payment__carousel-indicators {
+    display: flex;
+    justify-content: center;
+    width: 680px;
+    height: 105px;
+    border-radius: 25px;
+    position: relative;
+    top: -20px;
+    left: 15px;
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.payment__conteiner_white-background {
+    width: 340px;
+    height: 105px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.payment__carousel-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment__rate-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #3B3B3B;
+}
+
+.payment__small-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3B3B3B;
+}
+
+.payment__conteiner {
+    padding: 5% 12%;
+}
+
+.carousel-item__new-price {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #3B3B3B;
+    margin-right: 30px;
+}
+
+.carousel-item__old-price {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+
+    text-decoration: line-through;
+    color: #CCCACB;
+}
+
+.carousel-item__price-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 405px;
+    height: 85px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.carousel-item__pink-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #E43A56;
+}
+
+.carousel-item__pink-text span {
+    font-size: 36px;
+}
+
+.payment__button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    padding: 5px 51px;
+}
+
+@media screen and (max-width: 960px) {
+    .payment__title {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 33px;
+    }
+
+    #payment__carousel-indicators {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        min-height: fit-content;
+        margin: auto;
+        left: 0px;
+    }
+
+    .payment__rate-name {
+        font-size: 5.5vw;
+    }
+
+    #carousel-indicators__cozy,
+    #carousel-indicators__base {
+        width: 50%;
+        min-height: 105px;
+    }
+
+    .payment__small-text {
+        font-size: 12px;
+    }
+
+    .payment__conteiner {
+        padding: 3% 7%;
+        height: fit-content;
+    }
+
+    .carousel-item__price-card {
+        width: 90%;
+        height: fit-content;
+        border-radius: 15px;
+    }
+
+    .payment__carousel-inner {
+        padding-right: 0%;
+    }
+
+    .payment__carousel-item {
+        margin-left: 0%;
+        width: 100%;
+        left: 0%;
+    }
+
+    .payment__carousel-inner div {
+        text-align: center;
+    }
+
+    .carousel-item__new-price {
+        font-size: 38px;
+    }
+
+    .payment__conteiner {
+        text-align: center;
+    }
 }

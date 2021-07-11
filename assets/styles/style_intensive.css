@@ -42,6 +42,13 @@ h2 {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .h2__special {
+    font-size: 25px;
+    line-height: 18px;
+  }
+}
+
 ::after,
 ::before {
   -webkit-box-sizing: content-box;
@@ -509,6 +516,16 @@ h5 {
           align-items: center;
 }
 
+.section-5__task__img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-5__task__img {
+    max-width: 50%;
+  }
+}
+
 .section-5__tasks__text {
   max-width: 1400px;
   margin: auto;
@@ -531,7 +548,6 @@ h5 {
 }
 
 .section-5__video {
-  max-width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -542,6 +558,10 @@ h5 {
   .section-5__video {
     width: 100%;
   }
+}
+
+.section-5__video1 {
+  max-width: 100%;
 }
 
 .section-6 {
@@ -950,6 +970,12 @@ h5 {
   color: #3B3B3B;
 }
 
+@media screen and (max-width: 960px) {
+  .section-10__sertificate {
+    max-width: 100%;
+  }
+}
+
 .section-11__carousel {
   max-width: 1400px;
   margin: auto;
@@ -1219,6 +1245,7 @@ h5 {
 
 .section-14__term {
   text-align: center;
+  padding-bottom: 30px;
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1251,5 +1278,275 @@ h5 {
   line-height: 30px;
   color: #FFFFFF;
   background: #E43A56;
+}
+
+.carousel {
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.payment__title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #3B3B3B;
+}
+
+.payment__text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #3B3B3B;
+}
+
+.payment__button {
+  width: 170px;
+  height: 40px;
+  background-color: #E43A56;
+  color: #FFF;
+  border-radius: 25px;
+  padding: 5px 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 45px;
+  text-decoration: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment__button :hover {
+  color: #F9D2CB;
+}
+
+.payment {
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 75px;
+}
+
+.payment__title {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.payment__text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.payment__pink-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #E43A56;
+}
+
+#carousel-indicators__base {
+  width: 340px;
+  height: 105px;
+  border-radius: 25px 0px 0px 25px;
+  margin: 0px;
+  text-indent: unset;
+  border: none;
+}
+
+#payment__carousel-indicators li {
+  background-color: #FFF;
+}
+
+#payment__carousel-indicators .active {
+  background-color: #E43A56;
+}
+
+#carousel-indicators__cozy {
+  width: 340px;
+  height: 105px;
+  border-radius: 0px 25px 25px 0px;
+  margin: 0px;
+  text-indent: unset;
+  border: none;
+}
+
+#payment__carousel-indicators {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 680px;
+  height: 105px;
+  border-radius: 25px;
+  position: relative;
+  top: -20px;
+  left: 15px;
+  -webkit-box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+          box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.payment__conteiner_white-background {
+  width: 340px;
+  height: 105px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.payment__carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment__rate-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #3B3B3B;
+}
+
+.payment__small-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3B3B3B;
+}
+
+.payment__conteiner {
+  padding: 5% 12%;
+}
+
+.carousel-item__new-price {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #3B3B3B;
+  margin-right: 30px;
+}
+
+.carousel-item__old-price {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-decoration: line-through;
+  color: #CCCACB;
+}
+
+.carousel-item__price-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 405px;
+  height: 85px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+          box-shadow: 0 0 20px rgba(59, 59, 59, 0.3);
+}
+
+.carousel-item__pink-text {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #E43A56;
+}
+
+.carousel-item__pink-text span {
+  font-size: 36px;
+}
+
+.payment__button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 51px;
+}
+
+@media screen and (max-width: 960px) {
+  .payment__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 33px;
+  }
+  #payment__carousel-indicators {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    margin: auto;
+    left: 0px;
+  }
+  .payment__rate-name {
+    font-size: 5.5vw;
+  }
+  #carousel-indicators__cozy,
+  #carousel-indicators__base {
+    width: 50%;
+    min-height: 105px;
+  }
+  .payment__small-text {
+    font-size: 12px;
+  }
+  .payment__conteiner {
+    padding: 3% 7%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .carousel-item__price-card {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 15px;
+  }
+  .payment__carousel-inner {
+    padding-right: 0%;
+  }
+  .payment__carousel-item {
+    margin-left: 0%;
+    width: 100%;
+    left: 0%;
+  }
+  .payment__carousel-inner div {
+    text-align: center;
+  }
+  .carousel-item__new-price {
+    font-size: 38px;
+  }
+  .payment__conteiner {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style_intensive.css.map */
