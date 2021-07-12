@@ -197,7 +197,12 @@ h2 {
 
 .third-section__carousel {
   max-width: 1400px;
+  padding: 20px 10% 86px 10%;
   margin: auto;
+}
+
+.carousel-alternative {
+  display: none;
 }
 
 /*Каруселька №1*/

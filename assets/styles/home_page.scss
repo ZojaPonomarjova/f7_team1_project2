@@ -211,15 +211,18 @@ h2 {
     padding: 20px 10% 86px 10%;
     margin: auto;
 }
-
+.carousel-alternative{
+    display: none;
+}
 
 /*Каруселька №1*/
 
 .img-fluid {
     max-width: 22%;
-     margin-left: 10px;
-     margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
+
 .carousel-indicators li {
 
     width: 6px;
