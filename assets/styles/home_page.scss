@@ -96,6 +96,7 @@ h2 {
 .first-section__img1 {
     max-width: 100%;
     margin-top: 71px;
+    width: 50vw;
 }
 
 /*Вторая секция*/
@@ -117,6 +118,9 @@ h2 {
 .second_section__img {
     display: flex;
     justify-self: center;
+    
+}
+.image_girl{
     max-width: 100%;
 }
 
@@ -143,8 +147,8 @@ h2 {
 /*Каруселька №1*/
 
 .img-fluid {
-    max-width: 100%;
-    margin-right: 15px;
+    max-width: 22%;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -164,6 +168,7 @@ h2 {
 .carousel-item {
     right: 50%;
     left: 10%;
+    width: 95%;
 }
 
 .carousel-indicators {
@@ -484,7 +489,7 @@ h4 {
 
 
 .img-fluid2__text {
-    max-width: 100%;
+    max-width: 27%;
     margin-right: 1%;
     margin-top: 15px;
 }
@@ -493,7 +498,7 @@ h4 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    height: 280px;
+    
     margin-top: 29px;
 }
 
