@@ -15,6 +15,12 @@ h2 {
     font-size: 60px;
     line-height: 70px;
     color: #3B3B3B;
+
+    @media screen and (max-width: 960px) {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
 }
 
 .text_color {
@@ -96,6 +102,57 @@ h2 {
 .first-section__img1 {
     max-width: 100%;
     margin-top: 71px;
+    width: 50vw;
+}
+
+@media screen and (max-width: 960px) {
+
+
+    /*Первая секция*/
+
+    /*Кнопка*/
+    .button {
+        margin-top: 2%;
+    }
+
+
+
+    /*Позиционирование background-image на первой и второй секции*/
+    .first-section__background-pink {
+        background-position-x: 80%;
+        background-size: 140%;
+    }
+
+    /*Позиционирование 1-ой секции */
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 2%;
+
+    }
+
+    .first-section__col1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .first-section__title {
+        font-size: 33px;
+        line-height: 38px;
+        display: block;
+    }
+
+    br {
+        display: none;
+    }
+
+    .first-section__col2 {
+        display: none;
+    }
 }
 
 /*Вторая секция*/
@@ -117,7 +174,25 @@ h2 {
 .second_section__img {
     display: flex;
     justify-self: center;
+
+}
+
+.image_girl {
     max-width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+
+    .second-section {
+        padding-top: 10%;
+    }
+
+
+    .second_section__img {
+        display: grid;
+
+    }
+
 }
 
 /*Третья секция.Карусель.*/
@@ -137,11 +212,15 @@ h2 {
     margin: auto;
 }
 
+.carousel-alternative {
+    display: none;
+}
+
 /*Каруселька №1*/
 
 .img-fluid {
-    max-width: 100%;
-    margin-right: 15px;
+    max-width: 21%;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -151,7 +230,7 @@ h2 {
     height: 6px;
     border-radius: 100%;
     background-color: #749CCF;
-    margin-right: 16px;
+    margin-right: 20px;
 }
 
 .carousel-indicators .active {
@@ -161,6 +240,7 @@ h2 {
 .carousel-item {
     right: 50%;
     left: 10%;
+    width: 95%;
 }
 
 .carousel-indicators {
@@ -187,6 +267,14 @@ h2 {
     padding-left: 150px;
 }
 
+@media screen and (max-width: 960px) {
+
+    .third-section {
+        display: none;
+    }
+
+}
+
 /*Четвертая секция.Каруселька с шариками и background-image-2*/
 
 /*Фоновое изображение*/
@@ -198,12 +286,19 @@ h2 {
     background-position-y: 35%;
     background-size: 150%;
 
+    @media screen and (max-width: 960px) {
+        background-repeat: repeat;
+        background-position-y: 50%;
+        background-size: 400%;
+    }
+
 }
 
 .four-section__carousel {
     max-width: 1400px;
     padding: 50px 10% 86px 10%;
     margin: auto;
+
 }
 
 .four-section__col1 {
@@ -363,40 +458,87 @@ h2 {
     padding-top: 20px;
 }
 
+@media screen and (max-width: 960px) {
+
+    .four-section {
+        display: none;
+    }
+
+}
+
 /*Пятая секция с мультиком*/
 
 /*Шрифты*/
 
-.five-section__title {
-    line-height: 78px;
-    letter-spacing: 0px;
-}
+
 
 .five-section {
+    max-width: 1400px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    margin: auto;
     display: grid;
     grid-template-columns: 49% 49%;
+
     gap: 93px;
-    max-width: 1400px;
-    padding: 20px 10% 86px 10%;
-    margin: auto;
+
+
 }
 
 .five-section__col1 {
-    margin-top: 70px;
-
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 video {
-    height: 20vw;
+    max-width: 100%;
     border-radius: 40px;
-    overflow: hidden;
-    margin-top: 70px;
-    margin-left: -35px;
+
 }
+
+@media screen and (max-width: 960px) {
+
+    .five-section {
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .five-section__col1 {
+
+        justify-content: center;
+
+    }
+
+}
+
+
+
 
 /*Шестая секция*/
 
-/*Шрифты*/
+.section-6 {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 60px;
+    text-align: center;
+
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
 h4 {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
@@ -409,45 +551,35 @@ h4 {
 
 }
 
-.card__text {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
-}
-
-.six-section {
-    max-width: 1400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: auto;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 21px;
-    text-align: center;
-    margin-left: 5%;
-}
-
-
-.card-section {
-    display: grid;
-    justify-items: center;
-    width: 262px;
-}
-
-.card__img {
+.section-6__card__img {
     max-width: 100%;
+}
+
+
+.section-6__card__text {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #3B3B3B;
+
 }
 
 /*Седьмая секция*/
 
 .seven-section {
     background-color: #F4F4F4;
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .seven-section {
+        display: none;
+    }
+
 }
 
 .seven-section__carousel {
@@ -481,7 +613,7 @@ h4 {
 
 
 .img-fluid2__text {
-    max-width: 100%;
+    max-width: 30%;
     margin-right: 1%;
     margin-top: 15px;
 }
@@ -490,7 +622,7 @@ h4 {
     display: flex;
     flex-direction: row;
     align-content: center;
-    height: 280px;
+
     margin-top: 29px;
 }
 
