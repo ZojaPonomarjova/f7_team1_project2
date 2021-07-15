@@ -45,7 +45,7 @@ h2 {
 @media screen and (max-width: 960px) {
   .h2__special {
     font-size: 25px;
-    line-height: 18px;
+    line-height: 28px;
   }
 }
 
@@ -933,6 +933,8 @@ h5 {
 .section-10 {
   max-width: 1400px;
   margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 895px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1135,6 +1137,10 @@ h5 {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #F39D90;
+}
+
+.section-12_backdround {
+  background-color: #F4F4F4;
 }
 
 .seven-section__carousel {
