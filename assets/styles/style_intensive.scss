@@ -43,9 +43,8 @@ h2 {
 .h2__special {
     @media screen and (max-width: 960px) {
         font-size: 25px;
-        line-height: 18px;
+        line-height: 28px;
     }
-
 }
 
 ::after,
@@ -753,6 +752,8 @@ h5 {
 .section-10 {
     max-width: 1400px;
     margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 895px;
     display: flex;
     flex-direction: row;
@@ -763,6 +764,7 @@ h5 {
         flex-direction: column;
         align-items: center;
         width: auto;
+
     }
 
     .section-10__text {
@@ -912,6 +914,10 @@ h5 {
 
 
 // секция-12 (карусель)
+
+.section-12_backdround {
+    background-color: #F4F4F4;
+}
 
 .seven-section__carousel {
     max-width: 1400px;
