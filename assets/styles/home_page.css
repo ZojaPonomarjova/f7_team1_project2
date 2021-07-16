@@ -172,7 +172,7 @@ h2 {
 
 @media screen and (max-width: 960px) {
   .second-section {
-    padding-top: 10%;
+    padding-top: 0%;
   }
   .second_section__img {
     display: -ms-grid;
@@ -191,14 +191,25 @@ h2 {
   justify-items: center;
 }
 
+@media screen and (max-width: 960px) {
+  .third-section__col1 {
+    text-align: center;
+  }
+}
+
 .third-section__carousel {
   max-width: 1400px;
   padding: 20px 10% 86px 10%;
   margin: auto;
 }
 
-.carousel-alternative {
-  display: none;
+@media screen and (max-width: 960px) {
+  .third-section__carousel {
+    padding-top: 5px;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 /*Каруселька №1*/
@@ -216,6 +227,12 @@ h2 {
   margin-right: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .carousel-indicators li {
+    display: none;
+  }
+}
+
 .carousel-indicators .active {
   background-color: #F39D90;
 }
@@ -224,6 +241,18 @@ h2 {
   right: 50%;
   left: 10%;
   width: 95%;
+}
+
+@media screen and (max-width: 960px) {
+  .slide4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .adapt_inner {
+    padding-left: 10%;
+  }
 }
 
 .carousel-indicators {
@@ -240,6 +269,16 @@ h2 {
   margin-right: 15px;
 }
 
+@media screen and (max-width: 960px) {
+  .carousel-control-prev-icon {
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    margin-right: -10%;
+    position: absolute;
+  }
+}
+
 .carousel-control-next-icon {
   background-image: url("/assets/images/стрелка_вправо_карусель.png");
   background-size: 55px;
@@ -251,8 +290,14 @@ h2 {
 }
 
 @media screen and (max-width: 960px) {
-  .third-section {
-    display: none;
+  .carousel-control-next-icon {
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: -5%;
+    position: absolute;
   }
 }
 
