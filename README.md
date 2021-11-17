@@ -34,7 +34,7 @@ ___
 
 ___
 
-![gif](тут будет гифка)
+![gif](https://github.com/itgirlschool/f7_team1_project2/blob/main/assets/gif/itg.gif)
 
 
  ___
@@ -42,8 +42,8 @@ ___
 * HTML5
 * CSS3
 * Препроцессор SASS
-* Bootstrap 
-* Адаптивная верстка для десктопа и для мобильных устройств (960px)
+* Bootstrap 4v
+* Адаптивная верстка для десктопа и для мобильных устройств
 * Figma
 ___
 
