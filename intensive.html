@@ -1,730 +1,1031 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/normalize.css">
-    <link rel="stylesheet" href="assets/styles/fonts.css">
-    <link rel="stylesheet" href="assets/styles/style_intensive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/style_intensive.css" />
     <title>ITGIRLSCHOOL</title>
-    <link rel="shortcut icon" href="assets/images/icon.png" type="image/svg">
-</head>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/svg" />
+  </head>
 
-<body>
-
-
-
-
+  <body>
     <header class="header">
-        <nav class="header__nav header__nav-main">
-            <div class="logo"> <img src="assets/images/header_img.png" alt="девушка с ноутбуком, просто о сложном"
-                    class="img_header">
-            </div>
-
-            <ul class="header__list">
-                <li><a class="menu" href="./profession-frontend.html">Профессии</a></li>
-                <li><a class="menu" href="#">Вебинар</a></li>
-                <li><a class="menu" href="./intensive.html">Курсы</a></li>
-                <li><a class="menu" href="#">Войти</a></li>
-            </ul>
-        </nav>
-
-        <div class="logo-alternative"> <img src="assets/images/header_img.png"
-                alt="девушка с ноутбуком, просто о сложном" class="img_header">
+      <nav class="header__nav header__nav-main">
+        <div class="logo">
+          <img
+            src="assets/images/header_img.png"
+            alt="девушка с ноутбуком, просто о сложном"
+            class="img_header"
+          />
         </div>
-        <nav class="header__nav header__nav-alternative" id="alternative-nav">
-            <div id="menuToggle">
-                <input type="checkbox" />
 
-                <span></span>
-                <span></span>
-                <span></span>
+        <ul class="header__list">
+          <li>
+            <a class="menu" href="./profession-frontend.html">Профессии</a>
+          </li>
+          <li><a class="menu" href="#">Вебинар</a></li>
+          <li><a class="menu" href="./intensive.html">Курсы</a></li>
+          <li><a class="menu" href="#">Войти</a></li>
+        </ul>
+      </nav>
 
-                <ul id="menu">
-                    <li class="nav__item">
-                        <a class="nav__link" href="./profession-frontend.html">Профессии</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">Вебинар</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./intensive.html">Курсы</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">Войти</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="header__shadow"></div>
+      <div class="logo-alternative">
+        <img
+          src="assets/images/header_img.png"
+          alt="девушка с ноутбуком, просто о сложном"
+          class="img_header"
+        />
+      </div>
+      <nav class="header__nav header__nav-alternative" id="alternative-nav">
+        <div id="menuToggle">
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <li class="nav__item">
+              <a class="nav__link" href="./profession-frontend.html"
+                >Профессии</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Вебинар</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./intensive.html">Курсы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__shadow"></div>
     </header>
 
-
-
-
-
-
-
-
     <main>
+      <section class="main-section">
+        <div class="main-section__col1">
+          <h5>Интенсивный курс</h5>
+          <h1>HTML + CSS</h1>
+          <p class="main-sectoin__text">
+            Курс рассчитан на веб-разработчиков с опытом от 1 года или на тех,
+            кто уже прошел наш курс «Веб-разработка для начинающих»
+          </p>
+          <a class="main-sectoin__btn" href="url">Записаться</a>
+          <p class="main-sectoin__text2">
+            13.07.2020 - 31.01.2021 (или 10.08.2021-21.02.2022?)
+          </p>
+        </div>
+        <div class="main-section__col2">
+          <img
+            class="main-section__img2"
+            src="assets/images/Vector_1.png"
+            alt="Фон"
+          />
+          <img
+            class="main-section__img1"
+            src="assets/images/img_main1.png"
+            alt="Счастливая программистка"
+          />
+        </div>
+      </section>
 
-        <section class="main-section">
-            <div class="main-section__col1">
-                <h5>Интенсивный курс</h5>
-                <h1>HTML + CSS</h1>
-                <p class="main-sectoin__text">Курс рассчитан на веб-разработчиков с опытом от 1 года или на тех, кто уже
-                    прошел наш курс «Веб-разработка для начинающих»</p>
-                <a class="main-sectoin__btn" href="url">Записаться</a>
-                <p class="main-sectoin__text2">13.07.2020 - 31.01.2021 (или 10.08.2021-21.02.2022?) </p>
+      <section class="section-2">
+        <p class="section-2__col1__text">Курс входит в профессии:</p>
+        <div class="section-2__col2">
+          <div class="col2">
+            <img
+              class="section-2__col2__img"
+              src="assets/images/verstalshik.png"
+              alt="Верстальщик"
+            />
+          </div>
+          <div class="section-2__col2__text">
+            <span class="section-2__col2__text1">Верстальщик</span>
+            <span class="section-2__col2__text2"
+              >(длительность - 4 месяца)</span
+            >
+          </div>
+        </div>
+        <div class="section-2__col3">
+          <div class="col3">
+            <img
+              class="section-2__col3__img"
+              src="assets/images/front-razrab.png"
+              alt="Фронтенд-разработчик"
+            />
+          </div>
+          <div class="section-2__col3__text">
+            <span class="section-2__col3__text1">Frontend-разработчик</span>
+            <span class="section-2__col3__text2"
+              >(длительность - 10 месяцев)</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3">
+        <h2>За 15 недель вы научитесь</h2>
+        <div class="section-3__items">
+          <div class="section-3__items__1">
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/html.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">HTML</p>
             </div>
-            <div class="main-section__col2">
-                <img class="main-section__img2" src="assets/images/Vector_1.png" alt="Фон">
-                <img class="main-section__img1" src="assets/images/img_main1.png" alt="Счастливая программистка">
-            </div>
-        </section>
-
-
-        <section class="section-2">
-            <p class="section-2__col1__text">Курс входит в профессии:</p>
-            <div class="section-2__col2">
-                <div class="col2">
-                    <img class="section-2__col2__img" src="assets/images/verstalshik.png" alt="Верстальщик">
-                </div>
-                <div class="section-2__col2__text">
-                    <span class="section-2__col2__text1">Верстальщик</span>
-                    <span class="section-2__col2__text2">(длительность - 4 месяца)</span>
-                </div>
-            </div>
-            <div class="section-2__col3">
-                <div class="col3">
-                    <img class="section-2__col3__img" src="assets/images/front-razrab.png" alt="Фронтенд-разработчик">
-                </div>
-                <div class="section-2__col3__text">
-                    <span class="section-2__col3__text1">Frontend-разработчик</span>
-                    <span class="section-2__col3__text2">(длительность - 10 месяцев)</span>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="section-3">
-            <h2>За 15 недель вы научитесь</h2>
-            <div class="section-3__items">
-                <div class="section-3__items__1">
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/html.png" alt="">
-                        </div>
-                        <p class="section-3__text">HTML</p>
-                    </div>
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/css.png" alt="">
-                        </div>
-                        <p class="section-3__text">CSS</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/javascript-logo.png" alt="">
-                        </div>
-                        <p class="section-3__text">Javascript ES6</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/react.png" alt="">
-                        </div>
-                        <p class="section-3__text">React</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/git.png" alt="">
-                        </div>
-                        <p class="section-3__text">GIT/GitHub</p>
-                    </div>
-                </div>
-
-                <div class="section-3__items__2">
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/less-css-logo.png" alt="">
-                        </div>
-                        <p class="section-3__text">LESS</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/sass.png" alt="">
-                        </div>
-                        <p class="section-3__text">SASS</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/agile.png" alt="">
-                        </div>
-                        <p class="section-3__text">Agile</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/webpack_logo.png" alt="">
-                        </div>
-                        <p class="section-3__text">Webpack</p>
-                    </div>
-
-                    <div class="section-3__item">
-                        <div class="section-3__pic">
-                            <img class="section-3__img" src="/assets/images/gulp.png" alt="">
-                        </div>
-                        <p class="section-3__text">Gulp</p>
-                    </div>
-                </div>
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/css.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">CSS</p>
             </div>
 
-        </section>
-
-
-
-        <section>
-            <h2>Что ждать от обучения?</h2>
-            <div class="section-4">
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_4.png" alt="Ламповая атмосфера">
-                    <h3>Ламповая атмосфера</h3>
-                    <p class="section-4__card__text">Никаких скучных и занудных «дядек» как в других школах. В
-                        ITGIRLSCOOL вас
-                        будут учить в атмосфере rock-and-roll.</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_11.png"
-                        alt="Еженедельные уроки и задания">
-                    <h3>Еженедельные уроки и задания</h3>
-                    <p class="section-4__card__text">Серия занимательных уроков продолжительностью от 5 по 15 минут. К
-                        каждому
-                        уроку прилагается домашнее задание, которое ты можешь делать в течение недели в удобное тебе
-                        время</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_9.png" alt="Работа с наставницами">
-                    <h3>Работа с наставницами</h3>
-                    <p class="section-4__card__text">Еженедельные групповые созвоны и обратная связь на домашние
-                        задания.Все наши
-                        наставницы - топовые программистки со значительным опытом реальной работы</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_6.png" alt="Командная работа">
-                    <h3>Командная работа</h3>
-                    <p class="section-4__card__text">Все как в настоящих IT компаниях - командная работа по agile, GIT и
-                        крутые
-                        проекты в портфолио, в том числе от реальных заказчиков. Дедлайны тоже настоящие - лениться не
-                        дадим и точно доведем тебя до результата!</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_7.png" alt="Чат поддержки">
-                    <h3>Чат поддержки</h3>
-                    <p class="section-4__card__text">Можно задавать любые вопросы, получать помощь от кураторов и
-                        чувствовать
-                        поддержку команды со всего мира. А может быть, именно здесь ты найдешь лучшую подругу ;)</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_8.png" alt="Клуб английского языка">
-                    <h3>Клуб английского языка</h3>
-                    <p class="section-4__card__text">Для всех учениц нашей школы есть возможность бесплатно участвовать
-                        в
-                        разговорном клубе для тренировки английского языка</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_5.png"
-                        alt="Только актуальные знания и трудоустройство">
-                    <h3>Только актуальные знания и трудоустройство</h3>
-                    <p class="section-4__card__text">Мы учим по требованиям рынка труда, и наши выпускницы сразу готовы
-                        к
-                        трудоустройству без дополнительного доучивания</p>
-                </div>
-                <div class="section-4__card">
-                    <img class="section-4__card__img" src="assets/images/home_page_10.png"
-                        alt="Цена на 30% ниже чем у конкурентов">
-                    <h3>Цена на 30% ниже чем у конкурентов</h3>
-                    <p class="section-4__card__text">Потому что по статистике зарплаты у женщин на 30% меньше чем у
-                        мужчин</p>
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <h2>Как проходит обучение</h2>
-            <p class="section-5__tasks__text">Каждый понедельник ученики получают задание, которое необходимо выполнить
-                до следующего понедельника:</p>
-            <div class="section-5">
-                <div class="section-5__tasks">
-                    <div class="section-5__task">
-                        <img class="section-5__task__img" src="/assets/images/круг.png" alt="какая-то картинка">
-                        <p class="section-5__tasks__text">набор видеоуроков</p>
-                    </div>
-                    <div class="section-5__task">
-                        <img class="section-5__task__img" src="/assets/images/круг.png" alt="какая-то картинка">
-                        <p class="section-5__tasks__text">задание по теоретической части</p>
-                    </div>
-                    <div class="section-5__task">
-                        <img class="section-5__task__img" src="/assets/images/круг.png" alt="какая-то картинка">
-                        <p class="section-5__tasks__text">практическое задание</p>
-                    </div>
-                </div>
-                <div class="section-5__video">
-                    <video class="section-5__video1" controls="controls" preload="auto">
-                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 "
-                            type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <h2>Каждая неделя обучения включает:</h2>
-            <div class="section-6">
-                <div class="section-6__item">
-                    <p class="section-6__text">cерию занимательных видеоуроков</p>
-                </div>
-                <div class="section-6__item">
-                    <p class="section-6__text">командный созвон в ZOOM</p>
-                </div>
-                <div class="section-6__item">
-                    <p class="section-6__text">домашнее задание</p>
-                </div>
-                <div class="section-6__item">
-                    <p class="section-6__text">ответы на вопросы от наставницы</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-7">
-            <h2>Программа обучения</h2>
-            <div class="section-7__programm">
-                <p class="section-7__title">Неделя 1 — Основы JavaScript, переменные и функции</p>
-                <p class="section-7__text">— Знакомимся со своим личным наставником и группой.</p>
-                <p class="section-7__text">— Узнаём как работает JavaScript и что такое переменные и функции.</p>
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/javascript-logo.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">Javascript ES6</p>
             </div>
 
-            <div id="accordion" class="main__accordion">
-                <div class="card">
-                    <div class="card-header card__header" id="headingOne">
-                        <div class="mb-0">
-                            <div class="section-7__title__accordion">Введение
-                            </div>
-                            <div class="section-7__circle"></div>
-                            <div class="section-7__lesson">
-                                <p class="section-7__lesson__name">Урок 1</p>
-                                <p class="section-7__lesson__time">(8:54)</p>
-                            </div>
-                            <a class="section-7__btn" href="#">Открытие курса</a>
-                            <div class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne" role="button">
-                                <div class="section-7__arrow__down">
-                                    <img class="section-7__arrow" src="/assets/images/arrow.png" alt="arrow">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="card__left-column">
-                                <p class="card__text"> 1. Открытие курса (08:36)
-                                </p>
-                            </div>
-                            <div class="card__right-column">
-                                <p class="card__text">Бесплатный урок
-                                </p>
-                                <a><img src="/assets/images/youtube-link.png" alt="Ссылка на видео на YouTube"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/react.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">React</p>
             </div>
-            <div id="accordionTwo" class="main__accordion">
-                <div class="card">
-                    <div class="card-header card__header" id="headingTwo">
-                        <div class="mb-0">
-                            <div class="section-7__title__accordion">Введение
-                            </div>
-                            <div class="section-7__circle"></div>
-                            <div class="section-7__lesson">
-                                <p class="section-7__lesson__name">Урок 1</p>
-                                <p class="section-7__lesson__time">(8:54)</p>
-                            </div>
-                            <a class="section-7__btn" href="#">Открытие курса</a>
-                            <div class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="true" aria-controls="collapseTwo" role="button">
-                                <div class="section-7__arrow__down">
-                                    <img class="section-7__arrow" src="/assets/images/arrow.png" alt="arrow">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="card__left-column">
-                                <p class="card__text"> 1. Открытие курса (08:36)
-                                </p>
-                            </div>
-                            <div class="card__right-column">
-                                <p class="card__text">Бесплатный урок
-                                </p>
-                                <a><img src="/assets/images/youtube-link.png" alt="Ссылка на видео на YouTube"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="accordiongThree" class="main__accordion">
-                <div class="card">
-                    <div class="card-header card__header" id="headingThree">
-                        <div class="mb-0">
-                            <div class="section-7__title__accordion">Введение
-                            </div>
-                            <div class="section-7__circle"></div>
-                            <div class="section-7__lesson">
-                                <p class="section-7__lesson__name">Урок 1</p>
-                                <p class="section-7__lesson__time">(8:54)</p>
-                            </div>
-                            <a class="section-7__btn" href="#">Открытие курса</a>
-                            <div class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="true" aria-controls="collapseThree" role="button">
-                                <div class="section-7__arrow__down">
-                                    <img class="section-7__arrow" src="/assets/images/arrow.png" alt="arrow">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="card__left-column">
-                                <p class="card__text"> 1. Открытие курса (08:36)
-                                </p>
-                            </div>
-                            <div class="card__right-column">
-                                <p class="card__text">Бесплатный урок
-                                </p>
-                                <a><img src="/assets/images/youtube-link.png" alt="Ссылка на видео на YouTube"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="accordionFour" class="main__accordion">
-                <div class="card">
-                    <div class="card-header card__header" id="headingFour">
-                        <div class="mb-0">
-                            <div class="section-7__title__accordion">Введение
-                            </div>
-                            <div class="section-7__circle"></div>
-                            <div class="section-7__lesson">
-                                <p class="section-7__lesson__name">Урок 1</p>
-                                <p class="section-7__lesson__time">(8:54)</p>
-                            </div>
-                            <a class="section-7__btn" href="#">Открытие курса</a>
-                            <div class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
-                                aria-expanded="true" aria-controls="collapseFour" role="button">
-                                <div class="section-7__arrow__down">
-                                    <img class="section-7__arrow" src="/assets/images/arrow.png" alt="arrow">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="card__left-column">
-                                <p class="card__text"> 1. Открытие курса (08:36)
-                                </p>
-                            </div>
-                            <div class="card__right-column">
-                                <p class="card__text">Бесплатный урок
-                                </p>
-                                <a><img src="/assets/images/youtube-link.png" alt="Ссылка на видео на YouTube"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section>
-            <h2>Выпускной проект</h2>
-            <p class="section-8__text">Первый выпускной проект – "Работа с API геолокационных карт".<br>Второй – это
-                чат: вы на практике реализуете обмен сообщениями, авторизацию и загрузку файлов.<br>И в конце предложим
-                бонусный выпускной проект – "Другофильтр" (API VK).</p>
-            <div class="section-8">
-                <div class="section-8__project">
-                </div>
-                <div class="section-8__project">
-                </div>
-                <div class="section-8__project">
-                </div>
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/git.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">GIT/GitHub</p>
             </div>
-        </section>
+          </div>
 
-        <section>
-            <h2 class="h2__special">Преподаватели</h2>
-            <div class="section-9">
-                <p class="section-9__title">Наставники – это тщательно отобранные практикующие IT-специалисты</p>
-                <p class="section-9__text">Ответы на любые вопросы в slack-чате, кодревью (проверка домашних заданий) -
-                    это норма взаимодействия наставника и ученика в отрасли онлайн-обучения.
+          <div class="section-3__items__2">
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/less-css-logo.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">LESS</p>
+            </div>
+
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/sass.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">SASS</p>
+            </div>
+
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/agile.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">Agile</p>
+            </div>
+
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/webpack_logo.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">Webpack</p>
+            </div>
+
+            <div class="section-3__item">
+              <div class="section-3__pic">
+                <img
+                  class="section-3__img"
+                  src="./assets/images/gulp.png"
+                  alt=""
+                />
+              </div>
+              <p class="section-3__text">Gulp</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Что ждать от обучения?</h2>
+        <div class="section-4">
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_4.png"
+              alt="Ламповая атмосфера"
+            />
+            <h3>Ламповая атмосфера</h3>
+            <p class="section-4__card__text">
+              Никаких скучных и занудных «дядек» как в других школах. В
+              ITGIRLSCOOL вас будут учить в атмосфере rock-and-roll.
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_11.png"
+              alt="Еженедельные уроки и задания"
+            />
+            <h3>Еженедельные уроки и задания</h3>
+            <p class="section-4__card__text">
+              Серия занимательных уроков продолжительностью от 5 по 15 минут. К
+              каждому уроку прилагается домашнее задание, которое ты можешь
+              делать в течение недели в удобное тебе время
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_9.png"
+              alt="Работа с наставницами"
+            />
+            <h3>Работа с наставницами</h3>
+            <p class="section-4__card__text">
+              Еженедельные групповые созвоны и обратная связь на домашние
+              задания.Все наши наставницы - топовые программистки со
+              значительным опытом реальной работы
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_6.png"
+              alt="Командная работа"
+            />
+            <h3>Командная работа</h3>
+            <p class="section-4__card__text">
+              Все как в настоящих IT компаниях - командная работа по agile, GIT
+              и крутые проекты в портфолио, в том числе от реальных заказчиков.
+              Дедлайны тоже настоящие - лениться не дадим и точно доведем тебя
+              до результата!
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_7.png"
+              alt="Чат поддержки"
+            />
+            <h3>Чат поддержки</h3>
+            <p class="section-4__card__text">
+              Можно задавать любые вопросы, получать помощь от кураторов и
+              чувствовать поддержку команды со всего мира. А может быть, именно
+              здесь ты найдешь лучшую подругу ;)
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_8.png"
+              alt="Клуб английского языка"
+            />
+            <h3>Клуб английского языка</h3>
+            <p class="section-4__card__text">
+              Для всех учениц нашей школы есть возможность бесплатно участвовать
+              в разговорном клубе для тренировки английского языка
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_5.png"
+              alt="Только актуальные знания и трудоустройство"
+            />
+            <h3>Только актуальные знания и трудоустройство</h3>
+            <p class="section-4__card__text">
+              Мы учим по требованиям рынка труда, и наши выпускницы сразу готовы
+              к трудоустройству без дополнительного доучивания
+            </p>
+          </div>
+          <div class="section-4__card">
+            <img
+              class="section-4__card__img"
+              src="assets/images/home_page_10.png"
+              alt="Цена на 30% ниже чем у конкурентов"
+            />
+            <h3>Цена на 30% ниже чем у конкурентов</h3>
+            <p class="section-4__card__text">
+              Потому что по статистике зарплаты у женщин на 30% меньше чем у
+              мужчин
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Как проходит обучение</h2>
+        <p class="section-5__tasks__text">
+          Каждый понедельник ученики получают задание, которое необходимо
+          выполнить до следующего понедельника:
+        </p>
+        <div class="section-5">
+          <div class="section-5__tasks">
+            <div class="section-5__task">
+              <img
+                class="section-5__task__img"
+                src="/assets/images/круг.png"
+                alt="какая-то картинка"
+              />
+              <p class="section-5__tasks__text">набор видеоуроков</p>
+            </div>
+            <div class="section-5__task">
+              <img
+                class="section-5__task__img"
+                src="/assets/images/круг.png"
+                alt="какая-то картинка"
+              />
+              <p class="section-5__tasks__text">
+                задание по теоретической части
+              </p>
+            </div>
+            <div class="section-5__task">
+              <img
+                class="section-5__task__img"
+                src="/assets/images/круг.png"
+                alt="какая-то картинка"
+              />
+              <p class="section-5__tasks__text">практическое задание</p>
+            </div>
+          </div>
+          <div class="section-5__video">
+            <video class="section-5__video1" controls="controls" preload="auto">
+              <source
+                src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 "
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Каждая неделя обучения включает:</h2>
+        <div class="section-6">
+          <div class="section-6__item">
+            <p class="section-6__text">cерию занимательных видеоуроков</p>
+          </div>
+          <div class="section-6__item">
+            <p class="section-6__text">командный созвон в ZOOM</p>
+          </div>
+          <div class="section-6__item">
+            <p class="section-6__text">домашнее задание</p>
+          </div>
+          <div class="section-6__item">
+            <p class="section-6__text">ответы на вопросы от наставницы</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-7">
+        <h2>Программа обучения</h2>
+        <div class="section-7__programm">
+          <p class="section-7__title">
+            Неделя 1 — Основы JavaScript, переменные и функции
+          </p>
+          <p class="section-7__text">
+            — Знакомимся со своим личным наставником и группой.
+          </p>
+          <p class="section-7__text">
+            — Узнаём как работает JavaScript и что такое переменные и функции.
+          </p>
+        </div>
+
+        <div id="accordion" class="main__accordion">
+          <div class="card">
+            <div class="card-header card__header" id="headingOne">
+              <div class="mb-0">
+                <div class="section-7__title__accordion">Введение</div>
+                <div class="section-7__circle"></div>
+                <div class="section-7__lesson">
+                  <p class="section-7__lesson__name">Урок 1</p>
+                  <p class="section-7__lesson__time">(8:54)</p>
+                </div>
+                <a class="section-7__btn" href="#">Открытие курса</a>
+                <div
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  role="button"
+                >
+                  <div class="section-7__arrow__down">
+                    <img
+                      class="section-7__arrow"
+                      src="/assets/images/arrow.png"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <div class="card__left-column">
+                  <p class="card__text">1. Открытие курса (08:36)</p>
+                </div>
+                <div class="card__right-column">
+                  <p class="card__text">Бесплатный урок</p>
+                  <a
+                    ><img
+                      src="/assets/images/youtube-link.png"
+                      alt="Ссылка на видео на YouTube"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="accordionTwo" class="main__accordion">
+          <div class="card">
+            <div class="card-header card__header" id="headingTwo">
+              <div class="mb-0">
+                <div class="section-7__title__accordion">Введение</div>
+                <div class="section-7__circle"></div>
+                <div class="section-7__lesson">
+                  <p class="section-7__lesson__name">Урок 1</p>
+                  <p class="section-7__lesson__time">(8:54)</p>
+                </div>
+                <a class="section-7__btn" href="#">Открытие курса</a>
+                <div
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                  role="button"
+                >
+                  <div class="section-7__arrow__down">
+                    <img
+                      class="section-7__arrow"
+                      src="/assets/images/arrow.png"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <div class="card__left-column">
+                  <p class="card__text">1. Открытие курса (08:36)</p>
+                </div>
+                <div class="card__right-column">
+                  <p class="card__text">Бесплатный урок</p>
+                  <a
+                    ><img
+                      src="/assets/images/youtube-link.png"
+                      alt="Ссылка на видео на YouTube"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="accordiongThree" class="main__accordion">
+          <div class="card">
+            <div class="card-header card__header" id="headingThree">
+              <div class="mb-0">
+                <div class="section-7__title__accordion">Введение</div>
+                <div class="section-7__circle"></div>
+                <div class="section-7__lesson">
+                  <p class="section-7__lesson__name">Урок 1</p>
+                  <p class="section-7__lesson__time">(8:54)</p>
+                </div>
+                <a class="section-7__btn" href="#">Открытие курса</a>
+                <div
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                  role="button"
+                >
+                  <div class="section-7__arrow__down">
+                    <img
+                      class="section-7__arrow"
+                      src="/assets/images/arrow.png"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <div class="card__left-column">
+                  <p class="card__text">1. Открытие курса (08:36)</p>
+                </div>
+                <div class="card__right-column">
+                  <p class="card__text">Бесплатный урок</p>
+                  <a
+                    ><img
+                      src="/assets/images/youtube-link.png"
+                      alt="Ссылка на видео на YouTube"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="accordionFour" class="main__accordion">
+          <div class="card">
+            <div class="card-header card__header" id="headingFour">
+              <div class="mb-0">
+                <div class="section-7__title__accordion">Введение</div>
+                <div class="section-7__circle"></div>
+                <div class="section-7__lesson">
+                  <p class="section-7__lesson__name">Урок 1</p>
+                  <p class="section-7__lesson__time">(8:54)</p>
+                </div>
+                <a class="section-7__btn" href="#">Открытие курса</a>
+                <div
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                  role="button"
+                >
+                  <div class="section-7__arrow__down">
+                    <img
+                      class="section-7__arrow"
+                      src="/assets/images/arrow.png"
+                      alt="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <div class="card__left-column">
+                  <p class="card__text">1. Открытие курса (08:36)</p>
+                </div>
+                <div class="card__right-column">
+                  <p class="card__text">Бесплатный урок</p>
+                  <a
+                    ><img
+                      src="/assets/images/youtube-link.png"
+                      alt="Ссылка на видео на YouTube"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Выпускной проект</h2>
+        <p class="section-8__text">
+          Первый выпускной проект – "Работа с API геолокационных карт".<br />Второй
+          – это чат: вы на практике реализуете обмен сообщениями, авторизацию и
+          загрузку файлов.<br />И в конце предложим бонусный выпускной проект –
+          "Другофильтр" (API VK).
+        </p>
+        <div class="section-8">
+          <div class="section-8__project"></div>
+          <div class="section-8__project"></div>
+          <div class="section-8__project"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2__special">Преподаватели</h2>
+        <div class="section-9">
+          <p class="section-9__title">
+            Наставники – это тщательно отобранные практикующие IT-специалисты
+          </p>
+          <p class="section-9__text">
+            Ответы на любые вопросы в slack-чате, кодревью (проверка домашних
+            заданий) - это норма взаимодействия наставника и ученика в отрасли
+            онлайн-обучения.
+          </p>
+          <p class="section-9__text">
+            Но только в ITGIRLSCHOOL наставник квалифицирован проводить
+            еженедельные групповые вебинары с глубоким разбором текущих вопросов
+            учеников.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2__special">Ваши будущие сертификаты</h2>
+        <div class="section-10">
+          <div>
+            <p class="section-10__text">
+              По окончании обучения вы получите сертификат. ITGIRLSCHOOL знают и
+              ценят работодатели, поэтому сертификат станет вашим дополнительным
+              плюсом при трудоустройстве в IT-компанию.
+            </p>
+            <p class="section-10__text">
+              Он будет доступен в электронном виде в личном кабинете – вы легко
+              сможете добавить ссылку на сертификат в резюме и подтвердить свой
+              уровень подготовки.
+            </p>
+          </div>
+          <div class="section-10__img">
+            <img
+              class="section-10__sertificate"
+              src="/assets/images/sertificate_fr.png"
+              alt="сертификат о прохождении обучения"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>У нас обучилось больше 200 девушек</h2>
+        <p class="section-11__subtitle">
+          Средняя зарплата 45 000 через 2 месяца после обучения
+        </p>
+
+        <div class="seven-section__carousel">
+          <div
+            id="carouselExampleIndicators4"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seven-section__carousel-inner">
+                  <div class="section-11__item">
+                    <div class="section-11__item__title">
+                      <div class="section-11__foto2"></div>
+                      <div class="section-11__item__title2">
+                        <p class="section-11__item__name">Яна Розовицкая</p>
+                        <p class="section-11__item__email">@ya.nka</p>
+                      </div>
+                    </div>
+                    <p class="section-11__item__text">
+                      От себя хочу написать огромное спасибо. Курс нереальный,
+                      просто нет слов! В нем чувствуется любов к своему делу,
+                      проработан каждый урок, удивительным образом собран весь
+                      подход обучения. Уверена, каждая девушка оценит простоту
+                      обучения в сфере IT...<br /><a
+                        class="section-11__item__link"
+                        >Читать отзыв полностью</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seven-section__carousel-inner">
+                  <div class="section-11__item">
+                    <div class="section-11__item__title">
+                      <div class="section-11__foto2"></div>
+                      <div class="section-11__item__title2">
+                        <p class="section-11__item__name">Яна Розовицкая</p>
+                        <p class="section-11__item__email">@ya.nka</p>
+                      </div>
+                    </div>
+                    <p class="section-11__item__text">
+                      От себя хочу написать огромное спасибо. Курс нереальный,
+                      просто нет слов! В нем чувствуется любов к своему делу,
+                      проработан каждый урок, удивительным образом собран весь
+                      подход обучения. Уверена, каждая девушка оценит простоту
+                      обучения в сфере IT...<br /><a
+                        class="section-11__item__link"
+                        >Читать отзыв полностью</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators4"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators4"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-12_backdround">
+        <h2 class="h2__special">Познакомься с #ITGIRLSCHOOL</h2>
+        <div class="seven-section__carousel">
+          <div
+            id="carouselExampleIndicators3"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seven-section__carousel-inner">
+                  <div class="seven-section__item"></div>
+                  <div class="seven-section__item"></div>
+                  <div class="seven-section__item"></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seven-section__carousel-inner">
+                  <div class="seven-section__item"></div>
+                  <div class="seven-section__item"></div>
+                  <div class="seven-section__item"></div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators3"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators3"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2__special">
+          Почему стоит выбрать обучение в #ITGIRLSCHOOL
+        </h2>
+        <div class="section-13">
+          <div class="section-13__reason"></div>
+          <div class="section-13__reason"></div>
+          <div class="section-13__reason"></div>
+        </div>
+        <div class="section-13__link">
+          <a class="section-13__link1">Ответы на другие вопросы</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Регистрация на обучение</h2>
+        <p class="section-14__term">
+          Период обучения:
+          <span class="section-14__term__red"
+            >(или 13.07.2020 - 31.01.2021?)</span
+          >
+        </p>
+        <div
+          id="carouselExampleIndicators5"
+          class="carousel slide"
+          data-ride="false"
+        >
+          <ol class="carousel-indicators" id="payment__carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators5"
+              data-slide-to="0"
+              id="carousel-indicators__base"
+            >
+              <div class="payment__conteiner">
+                <h4 class="payment__rate-name">Базовый</h4>
+                <p class="payment__small-text">
+                  2 часа работы с наставником в неделю.
                 </p>
-                <p class="section-9__text"> Но только в ITGIRLSCHOOL наставник квалифицирован проводить еженедельные
-                    групповые вебинары с глубоким разбором текущих вопросов учеников.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="h2__special">Ваши будущие сертификаты</h2>
-            <div class="section-10">
+              </div>
+            </li>
+            <li
+              data-target="#carouselExampleIndicators5"
+              data-slide-to="1"
+              class="active"
+              id="carousel-indicators__cozy"
+            >
+              <div class="payment__conteiner">
+                <h4 class="payment__rate-name">Уютный</h4>
+                <p class="payment__small-text">
+                  4 часа работы с наставником в неделю.
+                </p>
+              </div>
+            </li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item payment__carousel-item">
+              <div class="payment__carousel-inner">
+                <p class="payment__small-text">Цена до 31 июля</p>
                 <div>
-                    <p class="section-10__text">По окончании обучения вы получите сертификат. ITGIRLSCHOOL знают и ценят
-                        работодатели, поэтому сертификат станет вашим дополнительным плюсом при трудоустройстве в
-                        IT-компанию.</p>
-                    <p class="section-10__text">Он будет доступен в электронном виде в личном кабинете – вы легко
-                        сможете добавить ссылку на сертификат в резюме и подтвердить свой уровень подготовки.</p>
+                  <span class="carousel-item__new-price"
+                    >60&nbsp;000&nbsp;Р</span
+                  >
+                  <span class="carousel-item__old-price">75&nbsp;000</span>
                 </div>
-                <div class="section-10__img">
-                    <img class="section-10__sertificate" src="/assets/images/sertificate_fr.png"
-                        alt="сертификат о прохождении обучения">
+                <div class="carousel-item__price-card">
+                  <p class="carousel-item__pink-text">
+                    <span> 7000 /</span> мес. в рассрочку
+                  </p>
                 </div>
+                <a href="#" class="payment__button">Оплатить</a>
+              </div>
             </div>
-        </section>
-
-        <section>
-            <h2>У нас обучилось больше 200 девушек</h2>
-            <p class="section-11__subtitle">Средняя зарплата 45 000 через 2 месяца после обучения</p>
-
-            <div class="seven-section__carousel">
-                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="seven-section__carousel-inner">
-                                <div class="section-11__item">
-                                    <div class="section-11__item__title">
-                                        <div class="section-11__foto2">
-                                        </div>
-                                        <div class="section-11__item__title2">
-                                            <p class="section-11__item__name">Яна Розовицкая</p>
-                                            <p class="section-11__item__email">@ya.nka</p>
-                                        </div>
-
-                                    </div>
-                                    <p class="section-11__item__text">От себя хочу написать огромное спасибо. Курс
-                                        нереальный,
-                                        просто нет
-                                        слов! В нем чувствуется любов к своему делу, проработан каждый урок,
-                                        удивительным
-                                        образом собран
-                                        весь подход обучения. Уверена, каждая девушка оценит простоту обучения в сфере
-                                        IT...<br><a class="section-11__item__link">Читать отзыв полностью</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="seven-section__carousel-inner">
-                                <div class="section-11__item">
-                                    <div class="section-11__item__title">
-                                        <div class="section-11__foto2">
-                                        </div>
-                                        <div class="section-11__item__title2">
-                                            <p class="section-11__item__name">Яна Розовицкая</p>
-                                            <p class="section-11__item__email">@ya.nka</p>
-                                        </div>
-                                    </div>
-                                    <p class="section-11__item__text">От себя хочу написать огромное спасибо. Курс
-                                        нереальный, просто нет слов! В нем чувствуется любов к своему делу, проработан
-                                        каждый урок, удивительным
-                                        образом собран
-                                        весь подход обучения. Уверена, каждая девушка оценит простоту обучения в сфере
-                                        IT...<br><a class="section-11__item__link">Читать отзыв полностью</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon3" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon3" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+            <div class="carousel-item active payment__carousel-item">
+              <div class="payment__carousel-inner">
+                <p class="payment__small-text">Цена до 31 июля</p>
+                <div>
+                  <span class="carousel-item__new-price"
+                    >79&nbsp;000&nbsp;Р</span
+                  >
+                  <span class="carousel-item__old-price">85&nbsp;000</span>
                 </div>
+                <div class="carousel-item__price-card">
+                  <p class="carousel-item__pink-text">
+                    <span>9&nbsp;664 / </span>мес. в рассрочку
+                  </p>
+                </div>
+                <a href="#" class="payment__button">Оплатить</a>
+              </div>
             </div>
-        </section>
-
-        <section class="section-12_backdround">
-            <h2 class="h2__special">Познакомься с #ITGIRLSCHOOL</h2>
-            <div class="seven-section__carousel">
-                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="seven-section__carousel-inner">
-                                <div class="seven-section__item"></div>
-                                <div class="seven-section__item"></div>
-                                <div class="seven-section__item"></div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="seven-section__carousel-inner">
-                                <div class="seven-section__item"></div>
-                                <div class="seven-section__item"></div>
-                                <div class="seven-section__item"></div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon3" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon3" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="h2__special">Почему стоит выбрать обучение в #ITGIRLSCHOOL</h2>
-            <div class="section-13">
-                <div class="section-13__reason">
-                </div>
-                <div class="section-13__reason">
-                </div>
-                <div class="section-13__reason">
-                </div>
-            </div>
-            <div class="section-13__link">
-                <a class="section-13__link1">Ответы на другие вопросы</a>
-            </div>
-        </section>
-
-        <section>
-            <h2>Регистрация на обучение</h2>
-            <p class="section-14__term">Период обучения: <span class="section-14__term__red">(или 13.07.2020 -
-                    31.01.2021?)</span></p>
-            <div id="carouselExampleIndicators5" class="carousel slide" data-ride="false">
-                <ol class="carousel-indicators" id="payment__carousel-indicators">
-                    <li data-target="#carouselExampleIndicators5" data-slide-to="0" id="carousel-indicators__base">
-                        <div class="payment__conteiner">
-                            <h4 class="payment__rate-name">Базовый</h4>
-                            <p class="payment__small-text">2 часа работы с наставником в неделю.</p>
-                        </div>
-                    </li>
-                    <li data-target="#carouselExampleIndicators5" data-slide-to="1" class="active"
-                        id="carousel-indicators__cozy">
-                        <div class="payment__conteiner">
-                            <h4 class="payment__rate-name">Уютный</h4>
-                            <p class="payment__small-text">4 часа работы с наставником в неделю.</p>
-                        </div>
-                    </li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item payment__carousel-item">
-                        <div class="payment__carousel-inner">
-                            <p class="payment__small-text">Цена до 31 июля</p>
-                            <div><span class="carousel-item__new-price">60&nbsp;000&nbsp;Р</span>
-                                <span class="carousel-item__old-price">75&nbsp;000</span></div>
-                            <div class="carousel-item__price-card">
-                                <p class="carousel-item__pink-text"><span>
-                                        7000 /</span> мес. в рассрочку</p>
-                            </div>
-                            <a href="#" class="payment__button">Оплатить</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item active payment__carousel-item">
-                        <div class="payment__carousel-inner">
-                            <p class="payment__small-text">Цена до 31 июля</p>
-                            <div><span class="carousel-item__new-price">79&nbsp;000&nbsp;Р</span>
-                                <span class="carousel-item__old-price">85&nbsp;000</span></div>
-                            <div class="carousel-item__price-card">
-                                <p class="carousel-item__pink-text"><span>9&nbsp;664 / </span>мес. в рассрочку</p>
-                            </div>
-                            <a href="#" class="payment__button">Оплатить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="footer-container">
-        <footer class="footer">
-            <div class="footer-copyright">
-                <ul class="footer__list">
-                    <li class="years">© 2012 - 2021 ITGIRLSCHOOL</li>
-                    <li class="school">Школа онлайн образования</li>
-                    <li> 8 (800) 302 1201 </li>
-                    <li><a href="mailto:questions@itgirlschool.ru" class="e-mail">questions@itgirlschool.ru</a>
-                    </li>
-                </ul>
+      <footer class="footer">
+        <div class="footer-copyright">
+          <ul class="footer__list">
+            <li class="years">© 2012 - 2021 ITGIRLSCHOOL</li>
+            <li class="school">Школа онлайн образования</li>
+            <li>8 (800) 302 1201</li>
+            <li>
+              <a href="mailto:questions@itgirlschool.ru" class="e-mail"
+                >questions@itgirlschool.ru</a
+              >
+            </li>
+          </ul>
 
-                <div class="footer-img"><img src="assets/images/school-logo-footer.png" alt="девушка с ноутбуком"
-                        class="school_logo">
-                </div>
-            </div>
+          <div class="footer-img">
+            <img
+              src="assets/images/school-logo-footer.png"
+              alt="девушка с ноутбуком"
+              class="school_logo"
+            />
+          </div>
+        </div>
 
-            <div class="footer-mailer">
-                <div class="footer__text">
-                    <p class="mailer-line footer-title">Полезная рассылка</p>
-                    <p class="mailer-text">Подпишись, чтобы быть в курсе <br>
-                        наших новостей, акций и скидок.</p>
-                </div>
-                <div class="footer-input">
-                    <input type="text" value="Введите e-mail" name="email" /></div>
-                <span id="input">Заполните поле</span>
-                <button class="mailer-button">Подписаться</button>
-            </div>
+        <div class="footer-mailer">
+          <div class="footer__text">
+            <p class="mailer-line footer-title">Полезная рассылка</p>
+            <p class="mailer-text">
+              Подпишись, чтобы быть в курсе <br />
+              наших новостей, акций и скидок.
+            </p>
+          </div>
+          <div class="footer-input">
+            <input type="text" value="Введите e-mail" name="email" />
+          </div>
+          <span id="input">Заполните поле</span>
+          <button class="mailer-button">Подписаться</button>
+        </div>
 
-            <div class="footer-useful">
-                <ul class="footer__list">
-                    <li class="map footer-title">Карта курсов</li>
-                    <li><a class="footer_menu" href="/companies.html">Работодателям</a></li>
-                    <li><a class="footer_menu" href="/partnership.html">Партнерская программа</a></li>
-                    <li><a class="footer_menu" href="/jobs.html">Вакансии</a></li>
-                    <li><a class="footer_menu" href="/certificates.html">Подарочные сертификаты</a></li>
-                    <li><a class="footer_menu" href="/webinars.html">Вебинары</a></li>
-                    <li><a class="footer_menu" href="/blog.html">Блог</a></li>
-                    <li><a class="footer_menu" href="/help.html">FAQ</a></li>
-                </ul>
-            </div>
+        <div class="footer-useful">
+          <ul class="footer__list">
+            <li class="map footer-title">Карта курсов</li>
+            <li>
+              <a class="footer_menu" href="/companies.html">Работодателям</a>
+            </li>
+            <li>
+              <a class="footer_menu" href="/partnership.html"
+                >Партнерская программа</a
+              >
+            </li>
+            <li><a class="footer_menu" href="/jobs.html">Вакансии</a></li>
+            <li>
+              <a class="footer_menu" href="/certificates.html"
+                >Подарочные сертификаты</a
+              >
+            </li>
+            <li><a class="footer_menu" href="/webinars.html">Вебинары</a></li>
+            <li><a class="footer_menu" href="/blog.html">Блог</a></li>
+            <li><a class="footer_menu" href="/help.html">FAQ</a></li>
+          </ul>
+        </div>
 
-            <div class="info-footer">
-                <ul class="footer__list">
-                    <li class="info footer-title">Информация</li>
-                    <li><a class="footer_menu" href="/offer.html">Публичная оферта</a></li>
-                    <li><a class="footer_menu" href="/privacy.html">Политика конфиденциальности</a></li>
-                </ul>
-            </div>
-        </footer>
+        <div class="info-footer">
+          <ul class="footer__list">
+            <li class="info footer-title">Информация</li>
+            <li>
+              <a class="footer_menu" href="/offer.html">Публичная оферта</a>
+            </li>
+            <li>
+              <a class="footer_menu" href="/privacy.html"
+                >Политика конфиденциальности</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
