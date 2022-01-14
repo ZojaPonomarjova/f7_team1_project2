@@ -8,11 +8,11 @@ body {
 /*Первая секция*/
 /*Шрифты*/
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
-  color: #3B3B3B;
+  color: #3b3b3b;
 }
 
 @media screen and (max-width: 960px) {
@@ -23,11 +23,11 @@ h2 {
 }
 
 .text_color {
-  color: #EA5D80;
+  color: #ea5d80;
 }
 
 .text_2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -40,13 +40,13 @@ h2 {
 .button {
   width: 170px;
   height: 40px;
-  background-color: #EA5D80;
-  color: #FFF;
+  background-color: #ea5d80;
+  color: #fff;
   border-radius: 25px;
   padding: 7px 35px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17.99px;
@@ -182,7 +182,7 @@ h2 {
 
 /*Третья секция.Карусель.*/
 .third-section {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .third-section__col1 {
@@ -223,7 +223,7 @@ h2 {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background-color: #749CCF;
+  background-color: #749ccf;
   margin-right: 20px;
 }
 
@@ -234,7 +234,7 @@ h2 {
 }
 
 .carousel-indicators .active {
-  background-color: #F39D90;
+  background-color: #f39d90;
 }
 
 .carousel-item {
@@ -261,7 +261,7 @@ h2 {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("/assets/images/стрелка_влево_карусель.png");
+  background-image: url("../images/стрелка_влево_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;
@@ -280,7 +280,7 @@ h2 {
 }
 
 .carousel-control-next-icon {
-  background-image: url("/assets/images/стрелка_вправо_карусель.png");
+  background-image: url("../images/стрелка_вправо_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;
@@ -360,10 +360,10 @@ h2 {
 }
 
 .carouselExampleIndicators__name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 13px;
-  color: #3B3B3B;
+  color: #3b3b3b;
   position: relative;
   bottom: -160px;
   right: -35px;
@@ -389,7 +389,7 @@ h2 {
 #carouselExampleIndicators__photo1,
 #carouselExampleIndicators__photo2,
 #carouselExampleIndicators__photo3 {
-  background-image: url("/assets/images/круг.png");
+  background-image: url("../images/круг.png");
   background-size: cover;
 }
 
@@ -410,9 +410,9 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10%;
-  background-color: #FFFFFF;
-  -webkit-box-shadow: 0px 0px 20px 0px #3B3B3B4D;
-          box-shadow: 0px 0px 20px 0px #3B3B3B4D;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px 0px #3b3b3b4d;
+          box-shadow: 0px 0px 20px 0px #3b3b3b4d;
 }
 
 @media screen and (max-width: 960px) {
@@ -433,7 +433,7 @@ h2 {
   height: 173px;
   border-radius: 50%;
   padding: 28px 55px;
-  background-image: url("/assets/images/круг.png");
+  background-image: url("../images/круг.png");
   background-size: cover;
 }
 
@@ -446,11 +446,11 @@ h2 {
 }
 
 .carousel-item__link {
-  color: #EA5D80;
+  color: #ea5d80;
 }
 
 .carousel-control-prev-icon2 {
-  background-image: url("/assets/images/стрелка_влево_карусель.png");
+  background-image: url("../images/стрелка_влево_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;
@@ -460,7 +460,7 @@ h2 {
 }
 
 .carousel-control-next-icon2 {
-  background-image: url("/assets/images/стрелка_вправо_карусель.png");
+  background-image: url("../images/стрелка_вправо_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;
@@ -471,18 +471,18 @@ h2 {
 
 /*Шрифты карусели*/
 .carousel-item__name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0px;
   text-align: left;
-  color: #3B3B3B;
+  color: #3b3b3b;
 }
 
 .carousel-item__adress {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -493,7 +493,7 @@ h2 {
 }
 
 .carousel-item__feedback {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -583,13 +583,13 @@ video {
 }
 
 h4 {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0px;
-  color: #3B3B3B;
+  color: #3b3b3b;
   margin-top: 23px;
 }
 
@@ -598,17 +598,17 @@ h4 {
 }
 
 .section-6__card__text {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #3B3B3B;
+  color: #3b3b3b;
 }
 
 /*Седьмая секция*/
 .seven-section {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .seven-section__carousel {
@@ -643,14 +643,14 @@ h4 {
 /*Каруселька №3*/
 /*Шрифты карусели 7й секции*/
 .carousel-inner__text {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0px;
   text-align: center;
-  color: #3B3B3B;
+  color: #3b3b3b;
   margin-top: 13px;
 }
 
@@ -685,7 +685,7 @@ h4 {
 }
 
 .carousel-control-prev-icon3 {
-  background-image: url("/assets/images/стрелка_влево_карусель.png");
+  background-image: url("../images/стрелка_влево_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;
@@ -704,7 +704,7 @@ h4 {
 }
 
 .carousel-control-next-icon3 {
-  background-image: url("/assets/images/стрелка_вправо_карусель.png");
+  background-image: url("../images/стрелка_вправо_карусель.png");
   background-size: 55px;
   height: 55px;
   width: 55px;

@@ -2,675 +2,596 @@
 @import url(./style_footer.css);
 
 body {
-
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /*Первая секция*/
 
 /*Шрифты*/
 h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
-    color: #3B3B3B;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #3b3b3b;
 
-    @media screen and (max-width: 960px) {
-        font-size: 30px;
-        line-height: 38px;
-    }
-
+  @media screen and (max-width: 960px) {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
 
 .text_color {
-    color: #EA5D80;
+  color: #ea5d80;
 }
 
 .text_2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0px;
-    text-align: left;
-
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 /*Кнопка*/
 .button {
-    width: 170px;
-    height: 40px;
-    background-color: #EA5D80;
-    color: #FFF;
-    border-radius: 25px;
-    padding: 7px 35px;
-    box-sizing: border-box;
+  width: 170px;
+  height: 40px;
+  background-color: #ea5d80;
+  color: #fff;
+  border-radius: 25px;
+  padding: 7px 35px;
+  box-sizing: border-box;
 
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17.99px;
-    line-height: 26px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.99px;
+  line-height: 26px;
 
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 18px;
-
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .button:hover {
-    text-decoration: none;
-    color: #ffdce3;
+  text-decoration: none;
+  color: #ffdce3;
 }
 
 /*Позиционирование background-image на первой и второй секции*/
 .first-section__background-pink {
-    background-image: url(../images/home_page_background.png);
-    background-repeat: no-repeat;
-    background-position-x: 70%;
-    background-position-y: top;
-    background-size: 140%;
-
+  background-image: url(../images/home_page_background.png);
+  background-repeat: no-repeat;
+  background-position-x: 70%;
+  background-position-y: top;
+  background-size: 140%;
 }
 
 /*Позиционирование 1-ой секции */
 
 .first-section {
-    display: grid;
-    grid-template-columns: 39% 59%;
+  display: grid;
+  grid-template-columns: 39% 59%;
 
-    max-width: 1400px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: auto;
-
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
 }
 
 .first-section__col1 {
-    display: grid;
-    align-content: start;
-    margin-top: 179px;
+  display: grid;
+  align-content: start;
+  margin-top: 179px;
 }
 
-
-
 .first-section__img1 {
-    max-width: 130%;
-    margin-top: 71px;
-    width: 50vw;
+  max-width: 130%;
+  margin-top: 71px;
+  width: 50vw;
 }
 
 @media screen and (max-width: 960px) {
+  /*Первая секция*/
 
+  /*Кнопка*/
+  .button {
+    margin-top: 2%;
+  }
 
-    /*Первая секция*/
+  /*Позиционирование background-image на первой и второй секции*/
+  .first-section__background-pink {
+    background-position-x: 80%;
+    background-size: 140%;
+  }
 
-    /*Кнопка*/
-    .button {
-        margin-top: 2%;
-    }
+  /*Позиционирование 1-ой секции */
 
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+  }
 
+  .first-section__col1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
 
-    /*Позиционирование background-image на первой и второй секции*/
-    .first-section__background-pink {
-        background-position-x: 80%;
-        background-size: 140%;
-    }
+  .first-section__title {
+    font-size: 33px;
+    line-height: 38px;
+    display: block;
+  }
 
-    /*Позиционирование 1-ой секции */
+  br {
+    display: none;
+  }
 
-    .first-section {
-        display: flex;
-        flex-direction: column;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 2%;
-
-    }
-
-    .first-section__col1 {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-    }
-
-    .first-section__title {
-        font-size: 33px;
-        line-height: 38px;
-        display: block;
-    }
-
-    br {
-        display: none;
-    }
-
-    .first-section__col2 {
-        display: none;
-    }
+  .first-section__col2 {
+    display: none;
+  }
 }
 
 /*Вторая секция*/
 
 .second-section {
-    max-width: 1400px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 13%;
-    padding-bottom: 90px;
-    margin: auto;
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 13%;
+  padding-bottom: 90px;
+  margin: auto;
 }
 
 .second-section__col1 {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 
 .second_section__img {
-    display: flex;
-    justify-self: center;
-
+  display: flex;
+  justify-self: center;
 }
 
 .image_girl {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 960px) {
+  .second-section {
+    padding-top: 0%;
+  }
 
-    .second-section {
-        padding-top: 0%;
-    }
-
-
-    .second_section__img {
-        display: grid;
-
-    }
-
+  .second_section__img {
+    display: grid;
+  }
 }
 
 /*Третья секция.Карусель.*/
 
 .third-section {
-    background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .third-section__col1 {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 
-    @media screen and (max-width: 960px) {
-        text-align: center;
-
-    }
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
 }
 
 .third-section__carousel {
-    max-width: 1400px;
-    padding: 20px 10% 86px 10%;
-    margin: auto;
+  max-width: 1400px;
+  padding: 20px 10% 86px 10%;
+  margin: auto;
 
-    @media screen and (max-width: 960px) {
-        padding-top: 5px;
-        padding-bottom: 10%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  @media screen and (max-width: 960px) {
+    padding-top: 5px;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
-
-
 
 /*Каруселька №1*/
 
 .img-fluid {
-    max-width: 21%;
-    margin-left: 10px;
-    margin-top: 10px;
+  max-width: 21%;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .carousel-indicators li {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #749ccf;
+  margin-right: 20px;
 
-    width: 6px;
-    height: 6px;
-    border-radius: 100%;
-    background-color: #749CCF;
-    margin-right: 20px;
-
-    @media screen and (max-width: 960px) {
-
-        display: none;
-    }
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 }
 
 .carousel-indicators .active {
-    background-color: #F39D90;
+  background-color: #f39d90;
 }
 
 .carousel-item {
-    right: 50%;
-    left: 10%;
-    width: 95%;
+  right: 50%;
+  left: 10%;
+  width: 95%;
 }
-
 
 .slide4 {
-
-    @media screen and (max-width: 960px) {
-
-        display: none;
-    }
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 }
 
-
 .adapt_inner {
-
-    @media screen and (max-width: 960px) {
-
-        padding-left: 10%;
-    }
+  @media screen and (max-width: 960px) {
+    padding-left: 10%;
+  }
 }
 
 .carousel-indicators {
-    left: 8%;
-    bottom: -80px;
+  left: 8%;
+  bottom: -80px;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("/assets/images/стрелка_влево_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-right: 15px;
+  background-image: url("../images/стрелка_влево_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-right: 15px;
 
-    @media screen and (max-width: 960px) {
-        background-size: 35px;
-        height: 35px;
-        width: 35px;
-        margin-right: -10%;
-        position: absolute;
-
-    }
+  @media screen and (max-width: 960px) {
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    margin-right: -10%;
+    position: absolute;
+  }
 }
-
 
 .carousel-control-next-icon {
-    background-image: url("/assets/images/стрелка_вправо_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-left: 140px;
-    padding-left: 150px;
+  background-image: url("../images/стрелка_вправо_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-left: 140px;
+  padding-left: 150px;
 
-    @media screen and (max-width: 960px) {
-
-        background-size: 35px;
-        height: 35px;
-        width: 35px;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-left: -5%;
-        position: absolute;
-
-    }
+  @media screen and (max-width: 960px) {
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: -5%;
+    position: absolute;
+  }
 }
-
-
 
 /*Четвертая секция.Каруселька с шариками и background-image-2*/
 
 /*Фоновое изображение*/
 
 .background_2 {
-    background-image: url(../images/home_page_background2.png);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 35%;
-    background-size: 150%;
+  background-image: url(../images/home_page_background2.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 35%;
+  background-size: 150%;
 
-    @media screen and (max-width: 960px) {
-        background-repeat: repeat;
-        background-position-y: 50%;
-        background-size: 400%;
-    }
-
+  @media screen and (max-width: 960px) {
+    background-repeat: repeat;
+    background-position-y: 50%;
+    background-size: 400%;
+  }
 }
 
 .four-section__carousel {
-    max-width: 1400px;
-    padding: 50px 10% 86px 10%;
-    margin: auto;
+  max-width: 1400px;
+  padding: 50px 10% 86px 10%;
+  margin: auto;
 
-    @media screen and (max-width: 960px) {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 5px;
-        text-align: center;
-
-    }
-
+  @media screen and (max-width: 960px) {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    text-align: center;
+  }
 }
 
 .four-section__col1 {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 
-    @media screen and (max-width: 960px) {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+  @media screen and (max-width: 960px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 /*Каруселька №2*/
 .carousel-indicators__near-walls {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -10%;
-    margin-right: -2%;
-
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10%;
+  margin-right: -2%;
 }
 
-
 .carouselExampleIndicators__name {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 13px;
 
-    color: #3B3B3B;
+  color: #3b3b3b;
 
-    position: relative;
-    bottom: -160px;
-    right: -35px;
-    margin-right: 30%;
+  position: relative;
+  bottom: -160px;
+  right: -35px;
+  margin-right: 30%;
 
-    text-indent: initial;
-
+  text-indent: initial;
 }
 
 #carouselExampleIndicators__photo1,
 #carouselExampleIndicators__photo2,
 #carouselExampleIndicators__photo3 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 
-    position: relative;
-    bottom: 230px;
-    opacity: 1;
+  position: relative;
+  bottom: 230px;
+  opacity: 1;
 }
 
 .carousel-indicators__near-walls .active {
-    display: none;
+  display: none;
 }
 
 #carouselExampleIndicators__photo1,
 #carouselExampleIndicators__photo2,
 #carouselExampleIndicators__photo3 {
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
+  background-image: url("../images/круг.png");
+  background-size: cover;
 
-    @media screen and (max-width: 960px) {
-        display: none;
-    }
-
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 }
 
 .carousel-item__first,
 .carousel-item__second,
 .carousel-item__third {
+  width: 60%;
+  border-radius: 20px;
+  padding: 38px 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  background-color: #ffffff;
 
-    width: 60%;
-    border-radius: 20px;
-    padding: 38px 55px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10%;
-    background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px 0px #3b3b3b4d;
 
-    box-shadow: 0px 0px 20px 0px #3B3B3B4D;
-
-
-    @media screen and (max-width: 960px) {
-
-        padding: 15px;
-        text-align: center;
-    }
+  @media screen and (max-width: 960px) {
+    padding: 15px;
+    text-align: center;
+  }
 }
 
 .carousel-item__background-image1,
 .carousel-item__background-image2,
 .carousel-item__background-image3 {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 
-    width: 173px;
-    height: 173px;
-    border-radius: 50%;
-    padding: 28px 55px;
+  width: 173px;
+  height: 173px;
+  border-radius: 50%;
+  padding: 28px 55px;
 
-    background-image: url("/assets/images/круг.png");
-    background-size: cover;
+  background-image: url("../images/круг.png");
+  background-size: cover;
 
-    @media screen and (max-width: 960px) {
-        display: none;
-
-    }
-
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 }
 
 .carousel-item__link {
-
-    color: #EA5D80;
+  color: #ea5d80;
 }
 
 .carousel-control-prev-icon2 {
-
-    background-image: url("/assets/images/стрелка_влево_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-left: 160%;
-    position: absolute;
-
+  background-image: url("../images/стрелка_влево_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-left: 160%;
+  position: absolute;
 }
 
 .carousel-control-next-icon2 {
-    background-image: url("/assets/images/стрелка_вправо_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-right: 170%;
-    position: absolute;
+  background-image: url("../images/стрелка_вправо_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-right: 170%;
+  position: absolute;
 }
 
 /*Шрифты карусели*/
 
-
 .carousel-item__name {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 27px;
-    letter-spacing: 0px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
 
-    text-align: left;
-    color: #3B3B3B;
-
+  text-align: left;
+  color: #3b3b3b;
 }
 
 .carousel-item__adress {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 10px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .carousel-item__feedback {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-top: 100px;
-    padding-top: 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 100px;
+  padding-top: 20px;
 
-    @media screen and (max-width: 960px) {
-        margin-top: 1px;
-        padding-top: 1px;
-    }
-
-
+  @media screen and (max-width: 960px) {
+    margin-top: 1px;
+    padding-top: 1px;
+  }
 }
-
 
 /*Пятая секция с мультиком*/
 
 /*Шрифты*/
 
-
-
 .five-section {
-    max-width: 1400px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 49% 49%;
+  max-width: 1400px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 49% 49%;
 
-    gap: 93px;
-
-
+  gap: 93px;
 }
 
 .five-section__col1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 video {
-    max-width: 100%;
-    border-radius: 40px;
-
+  max-width: 100%;
+  border-radius: 40px;
 }
 
 @media screen and (max-width: 960px) {
+  .five-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 
-    .five-section {
-
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-
-    }
-
-    .five-section__col1 {
-
-        justify-content: center;
-
-    }
-
+  .five-section__col1 {
+    justify-content: center;
+  }
 }
-
-
-
 
 /*Шестая секция*/
 
 .section-6 {
-    max-width: 1400px;
-    margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px 60px;
-    text-align: center;
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 60px;
+  text-align: center;
 
-
-    @media screen and (max-width: 960px) {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 }
 
 h4 {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color: #3B3B3B;
-    margin-top: 23px;
-
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  margin-top: 23px;
 }
 
 .section-6__card__img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-
 .section-6__card__text {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
 
-    color: #3B3B3B;
-
+  color: #3b3b3b;
 }
 
 /*Седьмая секция*/
 
 .seven-section {
-    background-color: #F4F4F4;
-
+  background-color: #f4f4f4;
 }
 
-
-
 .seven-section__carousel {
-    max-width: 1400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: auto;
+  max-width: 1400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
 
-    @media screen and (max-width: 960px) {
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  @media screen and (max-width: 960px) {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .seven-section__col1 {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 
-    @media screen and (max-width: 960px) {
-
-        text-align: center;
-        margin-bottom: -5%;
-
-    }
-
+  @media screen and (max-width: 960px) {
+    text-align: center;
+    margin-bottom: -5%;
+  }
 }
 
 /*Каруселька №3*/
@@ -678,80 +599,70 @@ h4 {
 /*Шрифты карусели 7й секции*/
 
 .carousel-inner__text {
-    font-family: 'Jost', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #3B3B3B;
-    margin-top: 13px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3b3b3b;
+  margin-top: 13px;
 
-    @media screen and (max-width: 960px) {
-        font-size: 0.5em;
-        line-height: 11px;
-    }
-
+  @media screen and (max-width: 960px) {
+    font-size: 0.5em;
+    line-height: 11px;
+  }
 }
 
-
-
 .img-fluid2__text {
-    max-width: 28%;
-    margin-right: 1%;
-    margin-top: 15px;
+  max-width: 28%;
+  margin-right: 1%;
+  margin-top: 15px;
 }
 
 .img-fluid2 {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .seven-section__carousel-inner {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 
-    margin-top: 29px;
-
-
+  margin-top: 29px;
 }
 
 .carousel-control-prev-icon3 {
+  background-image: url("../images/стрелка_влево_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-right: 5%;
 
-    background-image: url("/assets/images/стрелка_влево_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-right: 5%;
-
-    @media screen and (max-width: 960px) {
-
-        background-size: 25px;
-        height: 25px;
-        width: 25px;
-        margin-right: 25%;
-        position: absolute;
-
-    }
+  @media screen and (max-width: 960px) {
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    margin-right: 25%;
+    position: absolute;
+  }
 }
 
 .carousel-control-next-icon3 {
-    background-image: url("/assets/images/стрелка_вправо_карусель.png");
-    background-size: 55px;
-    height: 55px;
-    width: 55px;
-    border-radius: 0px;
-    margin-left: 30%;
+  background-image: url("../images/стрелка_вправо_карусель.png");
+  background-size: 55px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0px;
+  margin-left: 30%;
 
-    @media screen and (max-width: 960px) {
-
-        background-size: 25px;
-        height: 25px;
-        width: 25px;
-        margin-left: 40%;
-        position: absolute;
-
-    }
+  @media screen and (max-width: 960px) {
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    margin-left: 40%;
+    position: absolute;
+  }
 }
